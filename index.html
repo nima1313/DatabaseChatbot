@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aggregation Pipeline Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        label {
+            font-weight: bold;
+            color: #333;
+        }
+        input, textarea, button {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .results {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #e9ecef;
+            border-radius: 5px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Aggregation Pipeline Generator</h1>
+        <form id="queryForm">
+            <label for="query">Enter your query:</label>
+            <textarea id="query" name="query" rows="4" required></textarea>
+            <button type="submit">Generate Pipeline</button>
+        </form>
+        <div class="results" id="results"></div>
+    </div>
+
+    <script>
+        document.getElementById('queryForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            const query = document.getElementById('query').value;
+
+            // Generate pipeline
+            let response = await fetch('/generate-pipeline', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ query: query })
+            });
+
+            if (response.ok) {
+                // Run aggregation
+                response = await fetch('/run-aggregation');
+                const results = await response.json();
+                
+                // Display results
+                const resultsDiv = document.getElementById('results');
+                resultsDiv.innerHTML = `<pre>${JSON.stringify(results, null, 2)}</pre>`;
+                resultsDiv.style.display = 'block';
+            } else {
+                alert('Error generating pipeline');
+            }
+        });
+    </script>
+</body>
+</html>
