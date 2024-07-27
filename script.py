@@ -18,14 +18,26 @@ completion = client.chat.completions.create(
     messages=[
         {
             "role": "system",
-            "content": """Create a model that receives a description and generates an aggregation pipeline for MongoDB. don't say anything. the response should be only a JSON file. I repeat, do not give any sentences back describing the result. just a JSON file. also keep in mind that this is the log schema const logSchema = Joi.object({
-    id: Joi.string().guid({ version: 'uuidv4' }).required(),
-    time: Joi.date().iso().required(),
-    temperature: Joi.number().required(),
-    sensorID: Joi.string().guid({ version: 'uuidv4' }).required()
+            "content": """
+            Create an aggregation pipeline for MongoDB based on the following log schema and example. Only return a valid JSON file with the pipeline. Do not include any descriptive sentences, explanations, or additional text.
+            Log Schema:
+{
+  "id": "Joi.string().guid({ version: 'uuidv4' }).required()",
+  "time": "Joi.date().iso().required()",
+  "temperature": "Joi.number().required()",
+  "sensorID": "Joi.string().guid({ version: 'uuidv4' }).required()"
+}
+Example Pipeline:
 
+[
+  {"$match":{"time":{"$gte":"2024-07-23T00:00:00.000Z","$lt":"2024-07-24T00:00:00.000Z"}}},
+  {"$group":{"_id":null,"avgTemperature":{"$avg":"$temperature"}}}
+]
+Instructions:
 
-    also this is an example : [{"$match":{"time":{"$gte":"2024-07-23T00:00:00.000Z","$lt":"2024-07-24T00:00:00.000Z"}}},{"$group":{"_id":null,"avgTemperature":{"$avg":"$temperature"}}}]
+Return only the JSON file with the generated pipeline.
+Ensure the JSON is properly formatted."
+
 });"""
         },
         {
