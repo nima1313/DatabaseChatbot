@@ -25,91 +25,82 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "index.html"));
 });
 
-// Endpoint to ask for a query and run the Python script
-app.post("/generate-pipeline", (req, res) => {
-  const userQuery = req.body.query;
-
-  const pythonProcess = spawn("python", ["./script.py", userQuery]); // Ensure the correct path to your Python script
-
-  pythonProcess.stdout.on("data", (data) => {
-    console.log(`Python output: ${data}`);
-  });
-
-  pythonProcess.stderr.on("data", (data) => {
-    console.error(`Python error: ${data}`);
-  });
-
-  pythonProcess.on("close", (code) => {
-    if (code === 0) {
-      res.send(
-        "Pipeline generation triggered successfully. You can now run the aggregation."
-      );
-    } else {
-      res.status(500).send("Error in triggering pipeline generation");
-    }
-  });
+app.post('/process-data', async (req, res) => {
+  try {
+    await generatePipeline(req.body.query);
+    await runAggregation();
+    generateImage();
+    res.json({message: "done"}).end();
+  } catch (error) {
+    console.error(error);
+    res.status(500).send('Error processing data');
+  }
 });
 
-// Endpoint to run the MongoDB aggregation
-app.get("/run-aggregation", async (req, res) => {
-  try {
-    // Read the JSON file containing the aggregation pipeline
-    const pipeline = JSON.parse(fs.readFileSync("output.json", "utf-8"));
+function generatePipeline(userQuery) {
+  return new Promise((resolve, reject) => {
+    const pythonProcess = spawn('python', ['./script.py', userQuery]);
 
-    // Connect to the MongoDB cluster
+    pythonProcess.stdout.on('data', (data) => {
+      console.log(`Python output: ${data}`);
+    });
+
+    pythonProcess.stderr.on('data', (data) => {
+      console.error(`Python error: ${data}`);
+    });
+
+    pythonProcess.on('close', (code) => {
+      if (code === 0) {
+        resolve();
+      } else {
+        reject('Error in triggering pipeline generation');
+      }
+    });
+  });
+}
+
+async function runAggregation() {
+  try {
+    const pipeline = JSON.parse(fs.readFileSync('output.json', 'utf-8'));
+
     await mongoose.connect(uri, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
 
-    // Access the collection
     const collection = mongoose.connection.collection(collectionName);
-
-    // Run the aggregation pipeline
     const result = await collection.aggregate(pipeline).toArray();
 
-    // Output the result
-    console.log(result);
+    fs.writeFileSync('output.json', JSON.stringify(result, null, 2), 'utf-8');
 
-    // Write the result to the JSON file
-    fs.writeFileSync("output.json", JSON.stringify(result, null, 2), "utf-8");
-
-    res.json(result);
+    return result;
   } catch (err) {
-    console.error(err);
-    res.status(500).send("Error running aggregation");
+    throw new Error('Error running aggregation');
   } finally {
-    // Close the connection
     await mongoose.disconnect();
   }
-});
+}
 
-app.get("/get-image", (req, res) => {
-  const pythonProcess = spawn("python", ["./visualizer.py"]); // Ensure the correct path to your Python script
+function generateImage() {
+  return new Promise((resolve, reject) => {
+    const pythonProcess = spawn('python', ['./visualizer.py']);
 
-  pythonProcess.stdout.on("data", (data) => {
-    const imagePath = path.join(
-      __dirname,
-      "public",
-      "temperature_over_time.png"
-    );
-    res.sendFile(imagePath);
+    pythonProcess.stdout.on('data', () => {
+      const imagePath = path.join(__dirname, 'public', 'temperature_over_time.png');
+      resolve(imagePath);
+    });
+
+    pythonProcess.stderr.on('data', (data) => {
+      console.error(`Python error: ${data}`);
+    });
+
+    pythonProcess.on('close', (code) => {
+      if (code !== 0) {
+        reject('Error in generating image');
+      }
+    });
   });
-
-  pythonProcess.stderr.on("data", (data) => {
-    console.error(`Python error: ${data}`);
-  });
-
-  pythonProcess.on("close", (code) => {
-    if (code === 0) {
-      res.send(
-        "Pipeline generation triggered successfully. You can now run the aggregation."
-      );
-    } else {
-      res.status(500).send("Error in triggering pipeline generation");
-    }
-  });
-});
+}
 
 app.listen(port, () => {
   console.log(`Server listening at http://localhost:${port}`);

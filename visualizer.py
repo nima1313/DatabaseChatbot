@@ -10,6 +10,7 @@ with open(file_path, 'r') as file:
 # Convert JSON data to DataFrame
 df = pd.DataFrame(data)
 
+
 # Convert 'time' column to datetime
 df['time'] = pd.to_datetime(df['time'])
 
