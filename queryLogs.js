@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const path = require("path");
 const app = express();
 const { exec } = require("child_process");
-const port = 3000;
+const port = 3001;
 
 // Middleware to parse JSON bodies
 app.use(bodyParser.json());
@@ -86,7 +86,7 @@ function generateImage() {
     const pythonProcess = spawn('python', ['./visualizer.py']);
 
     pythonProcess.stdout.on('data', () => {
-      const imagePath = path.join(__dirname, 'public', 'temperature_over_time.png');
+      const imagePath = path.join(__dirname, 'temperature_over_time.png');
       resolve(imagePath);
     });
 

@@ -1,1521 +1,2417 @@
 [
   {
-    "_id": "66a492cccca9d40e81691c80",
-    "id": "74019269-604a-4fc0-bd2b-0e961a23248e",
-    "time": "2024-07-27T06:25:16.463Z",
-    "temperature": 37,
+    "_id": "66a492c5cca9d40e81691c7c",
+    "id": "e18e5bb1-9c00-49e3-a55f-49c6984a4ff8",
+    "time": "2024-07-27T06:25:09.860Z",
+    "temperature": 35,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a492cacca9d40e81691c7e",
+    "id": "ce9ca66f-ff7d-4391-8986-d28893b42b50",
+    "time": "2024-07-27T06:25:14.873Z",
+    "temperature": 34,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a492dbcca9d40e81691c8a",
+    "id": "e6eb98ba-668b-4270-9cd3-53e198737922",
+    "time": "2024-07-27T06:25:31.532Z",
+    "temperature": 32,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a492fccca9d40e81691ca6",
+    "id": "cd806603-74fa-4e0f-be94-5ac124fba693",
+    "time": "2024-07-27T06:26:04.417Z",
+    "temperature": 31,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a49306cca9d40e81691cae",
+    "id": "762d6d0f-c706-4cc4-974c-c5df207accdf",
+    "time": "2024-07-27T06:26:14.436Z",
+    "temperature": 31,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a4932ecca9d40e81691ccc",
+    "id": "15a1bfa8-3098-455d-8dee-ede86284ef40",
+    "time": "2024-07-27T06:26:54.488Z",
+    "temperature": 30,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a49358cca9d40e81691cee",
+    "id": "84c85337-c659-4d81-a62f-1a8d661e7950",
+    "time": "2024-07-27T06:27:36.739Z",
+    "temperature": 30,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a492d4cca9d40e81691c84",
-    "id": "0347fa13-48d5-401a-a788-a43ac51a3897",
-    "time": "2024-07-27T06:25:24.894Z",
-    "temperature": 40,
+    "_id": "66a49366cca9d40e81691cf6",
+    "id": "9e0ff403-104d-4e73-9524-571cdcea06e3",
+    "time": "2024-07-27T06:27:50.116Z",
+    "temperature": 31,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a492decca9d40e81691c8c",
-    "id": "a7dc9396-4ca2-47bc-8baf-177adfc3a633",
-    "time": "2024-07-27T06:25:34.367Z",
-    "temperature": 40,
+    "_id": "66a4936acca9d40e81691cfa",
+    "id": "407712e4-67b7-4f5d-8cb4-bff3dfd7834e",
+    "time": "2024-07-27T06:27:54.597Z",
+    "temperature": 33,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a492edcca9d40e81691c9a",
-    "id": "cb564e16-b9c5-4d6e-9b92-1070c385eeb0",
-    "time": "2024-07-27T06:25:49.394Z",
-    "temperature": 40,
+    "_id": "66a49374cca9d40e81691d00",
+    "id": "2db7c3d5-0799-44ea-944e-5b2882d361b7",
+    "time": "2024-07-27T06:28:04.610Z",
+    "temperature": 34,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a493a2cca9d40e81691d24",
+    "id": "dae139ab-67c3-4f77-b213-23dffd15a051",
+    "time": "2024-07-27T06:28:50.251Z",
+    "temperature": 33,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49301cca9d40e81691caa",
-    "id": "4d290fc4-081c-425a-8a87-aa590fffe611",
-    "time": "2024-07-27T06:26:09.951Z",
-    "temperature": 38,
+    "_id": "66a493c5cca9d40e81691d40",
+    "id": "7ed9affc-19cd-4485-9dc5-6febcbf0a9b6",
+    "time": "2024-07-27T06:29:25.304Z",
+    "temperature": 31,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49303cca9d40e81691cac",
-    "id": "023aa986-4fd9-44cf-965d-f70325bfe895",
-    "time": "2024-07-27T06:26:11.614Z",
-    "temperature": 39,
+    "_id": "66a493c6cca9d40e81691d42",
+    "id": "ac303702-0677-49ed-b01f-79b6aed1d36b",
+    "time": "2024-07-27T06:29:26.930Z",
+    "temperature": 33,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a493f1cca9d40e81691d62",
+    "id": "1a95e1d7-9f09-4354-a03b-70a676884a88",
+    "time": "2024-07-27T06:30:09.804Z",
+    "temperature": 34,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49315cca9d40e81691cba",
-    "id": "bd9bcd42-4f20-4bf5-aa35-93fcdca3f0f1",
-    "time": "2024-07-27T06:26:29.453Z",
-    "temperature": 37,
+    "_id": "66a49400cca9d40e81691d70",
+    "id": "4f16e9a9-c0ec-462d-bd89-c81c593e5869",
+    "time": "2024-07-27T06:30:24.822Z",
+    "temperature": 31,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a49412cca9d40e81691d7a",
+    "id": "7be8f422-5b44-40e8-9a52-095071b04869",
+    "time": "2024-07-27T06:30:42.055Z",
+    "temperature": 35,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49330cca9d40e81691cd0",
-    "id": "f3ab5824-76c9-4fba-a362-48557bbf3cb0",
-    "time": "2024-07-27T06:26:56.674Z",
-    "temperature": 37,
+    "_id": "66a49417cca9d40e81691d7e",
+    "id": "acd01261-07c7-4a2f-a988-19b62a0ad578",
+    "time": "2024-07-27T06:30:47.057Z",
+    "temperature": 33,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49347cca9d40e81691ce0",
-    "id": "7754d7fa-ffba-43f9-8897-5558109c8dff",
-    "time": "2024-07-27T06:27:19.522Z",
-    "temperature": 40,
+    "_id": "66a4941fcca9d40e81691d86",
+    "id": "96499b46-dae8-444b-82d4-290ed2d33f74",
+    "time": "2024-07-27T06:30:55.458Z",
+    "temperature": 33,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a49432cca9d40e81691d92",
+    "id": "06dc25ff-dabf-41a5-b1d2-417701ef0180",
+    "time": "2024-07-27T06:31:14.908Z",
+    "temperature": 32,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a4944ccca9d40e81691daa",
+    "id": "d0330193-d30e-4d42-b2c2-f2fb4d607a0f",
+    "time": "2024-07-27T06:31:40.514Z",
+    "temperature": 32,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a49458cca9d40e81691db2",
+    "id": "f6fe9985-e406-4da9-935e-e3496a136a2f",
+    "time": "2024-07-27T06:31:52.155Z",
+    "temperature": 34,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a4946ccca9d40e81691dbe",
+    "id": "53dbd4bb-61c8-4388-8211-555f29173ebc",
+    "time": "2024-07-27T06:32:12.208Z",
+    "temperature": 31,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a493a1cca9d40e81691d22",
-    "id": "3e4c9e04-f0bd-42e0-b6c1-7fdf5fe54fff",
-    "time": "2024-07-27T06:28:49.684Z",
-    "temperature": 38,
+    "_id": "66a4946fcca9d40e81691dc0",
+    "id": "96638a4c-ca50-409c-ba66-3e74038feb22",
+    "time": "2024-07-27T06:32:15.004Z",
+    "temperature": 31,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a493c4cca9d40e81691d3e",
-    "id": "9eea6d85-8a8f-4f32-9752-82d1955e9b0f",
-    "time": "2024-07-27T06:29:24.729Z",
-    "temperature": 39,
+    "_id": "66a4948dcca9d40e81691dd6",
+    "id": "4be268cf-fabb-441f-ae03-52946fecaafa",
+    "time": "2024-07-27T06:32:45.070Z",
+    "temperature": 30,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a493c9cca9d40e81691d44",
-    "id": "052959f3-544b-44dc-b82c-a8ed073cfcb3",
-    "time": "2024-07-27T06:29:29.730Z",
-    "temperature": 39,
+    "_id": "66a49497cca9d40e81691ddc",
+    "id": "e506e47f-731e-431b-b377-9e6fbbbd8e9d",
+    "time": "2024-07-27T06:32:55.081Z",
+    "temperature": 30,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a493f4cca9d40e81691d66",
-    "id": "61aac6a0-b965-4a65-abdd-35b8d371a6ea",
-    "time": "2024-07-27T06:30:12.003Z",
-    "temperature": 38,
-    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+    "_id": "66a4949ccca9d40e81691de0",
+    "id": "45a6357a-0a64-440f-93f1-aa4ef88204f9",
+    "time": "2024-07-27T06:33:00.681Z",
+    "temperature": 31,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a493fecca9d40e81691d6e",
-    "id": "076cb8e3-3866-4edb-b1ce-3ec8270e2712",
-    "time": "2024-07-27T06:30:22.015Z",
-    "temperature": 40,
+    "_id": "66a494a3cca9d40e81691de4",
+    "id": "852ca472-5d02-456d-968d-bbe89fa00e1a",
+    "time": "2024-07-27T06:33:07.300Z",
+    "temperature": 32,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49410cca9d40e81691d78",
-    "id": "fe5462c6-4edf-449b-baec-669d96c27e2b",
-    "time": "2024-07-27T06:30:40.432Z",
-    "temperature": 37,
+    "_id": "66a494c4cca9d40e81691dfe",
+    "id": "2ff1d072-a436-4346-9798-07600ddf70aa",
+    "time": "2024-07-27T06:33:40.174Z",
+    "temperature": 31,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a494c4cca9d40e81691e00",
+    "id": "370be89b-8005-46a5-833b-3fd8e3cec511",
+    "time": "2024-07-27T06:33:40.762Z",
+    "temperature": 33,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49414cca9d40e81691d7c",
-    "id": "76c4d636-bd87-4f8b-b1cc-7de05d9b9111",
-    "time": "2024-07-27T06:30:44.868Z",
-    "temperature": 40,
+    "_id": "66a494cecca9d40e81691e08",
+    "id": "e5247ef2-8558-4246-81a5-292cb139429b",
+    "time": "2024-07-27T06:33:50.189Z",
+    "temperature": 33,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49442cca9d40e81691da0",
-    "id": "3cb14113-a063-4e89-bc21-8398f23c518f",
-    "time": "2024-07-27T06:31:30.504Z",
-    "temperature": 37,
+    "_id": "66a494cecca9d40e81691e0a",
+    "id": "da970866-ccc9-49e8-b43a-f817f8340a2b",
+    "time": "2024-07-27T06:33:50.772Z",
+    "temperature": 32,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a4944bcca9d40e81691da8",
-    "id": "e2dd2f42-1628-43a4-8ac1-ab59437aa698",
-    "time": "2024-07-27T06:31:39.936Z",
-    "temperature": 37,
+    "_id": "66a494d3cca9d40e81691e0c",
+    "id": "56692110-f68c-4e2b-9fd3-93321830de5f",
+    "time": "2024-07-27T06:33:55.192Z",
+    "temperature": 32,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49455cca9d40e81691dae",
-    "id": "9cd89c79-ced2-4165-9dcf-c7fc2008d374",
-    "time": "2024-07-27T06:31:49.953Z",
-    "temperature": 39,
+    "_id": "66a49500cca9d40e81691e30",
+    "id": "4b1a825c-7eea-41c8-8394-5f66a0c09f91",
+    "time": "2024-07-27T06:34:40.263Z",
+    "temperature": 33,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49456cca9d40e81691db0",
-    "id": "dc1a9795-ed91-402c-8ea2-dedb505aa170",
-    "time": "2024-07-27T06:31:50.532Z",
-    "temperature": 37,
+    "_id": "66a49514cca9d40e81691e3c",
+    "id": "2562e539-30a5-47c1-8292-f0d63e0452c0",
+    "time": "2024-07-27T06:35:00.294Z",
+    "temperature": 31,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a49519cca9d40e81691e42",
+    "id": "45fbe572-54fa-4d16-9225-9e0981704e15",
+    "time": "2024-07-27T06:35:05.914Z",
+    "temperature": 33,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a4951bcca9d40e81691e44",
+    "id": "a9029125-43ef-4731-8d25-78605d8f6e88",
+    "time": "2024-07-27T06:35:07.483Z",
+    "temperature": 33,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a4945fcca9d40e81691db4",
-    "id": "6bb09681-e927-4dd5-bca7-a32fe7e0888d",
-    "time": "2024-07-27T06:31:59.975Z",
-    "temperature": 37,
+    "_id": "66a4951ecca9d40e81691e46",
+    "id": "5cba108c-5444-445e-82b8-06c7417470f7",
+    "time": "2024-07-27T06:35:10.305Z",
+    "temperature": 32,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49465cca9d40e81691dba",
-    "id": "989d004e-cbfa-4a3e-978a-d12f27db9e11",
-    "time": "2024-07-27T06:32:05.566Z",
-    "temperature": 38,
-    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+    "_id": "66a49520cca9d40e81691e4a",
+    "id": "1e08a2b1-c0b5-430a-b5cd-773cab081b63",
+    "time": "2024-07-27T06:35:12.494Z",
+    "temperature": 33,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49480cca9d40e81691dcc",
-    "id": "c46e362f-dbd5-499a-b6ba-9317ddca991e",
-    "time": "2024-07-27T06:32:32.238Z",
-    "temperature": 38,
+    "_id": "66a49525cca9d40e81691e4c",
+    "id": "1e34c2ef-ede5-4c1b-968b-d9370c59a3ac",
+    "time": "2024-07-27T06:35:17.494Z",
+    "temperature": 30,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a49528cca9d40e81691e50",
+    "id": "73549003-54f0-43d3-9ebe-d229f4f6cda7",
+    "time": "2024-07-27T06:35:20.935Z",
+    "temperature": 34,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a4948fcca9d40e81691dd8",
-    "id": "2cbcfcac-4b6f-48a6-85aa-909f0d448e55",
-    "time": "2024-07-27T06:32:47.249Z",
-    "temperature": 38,
+    "_id": "66a49534cca9d40e81691e58",
+    "id": "bc856bdc-6c32-4d78-bc12-94889f6b92ac",
+    "time": "2024-07-27T06:35:32.504Z",
+    "temperature": 35,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49499cca9d40e81691dde",
-    "id": "b15a83c3-9f1f-41b3-a237-6ade4ac0800a",
-    "time": "2024-07-27T06:32:57.271Z",
-    "temperature": 39,
+    "_id": "66a4953ccca9d40e81691e60",
+    "id": "5f8dc169-d21d-42fe-869a-acad85792f64",
+    "time": "2024-07-27T06:35:40.973Z",
+    "temperature": 31,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a49543cca9d40e81691e62",
+    "id": "7933e9ff-d2fd-4b24-af5a-78d45849a35d",
+    "time": "2024-07-27T06:35:47.534Z",
+    "temperature": 30,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a4955bcca9d40e81691e72",
+    "id": "bac9cfa5-54ec-4f56-a2c1-09c05586b458",
+    "time": "2024-07-27T06:36:11.032Z",
+    "temperature": 31,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a494a1cca9d40e81691de2",
-    "id": "8bcfa76a-bb36-4c43-bd31-cb3850720725",
-    "time": "2024-07-27T06:33:05.110Z",
-    "temperature": 40,
+    "_id": "66a49564cca9d40e81691e78",
+    "id": "1daf9a5c-9837-4173-88a3-6f9a392f64e7",
+    "time": "2024-07-27T06:36:20.416Z",
+    "temperature": 32,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a494a8cca9d40e81691dea",
-    "id": "ecd690ec-88ca-4842-91f3-a0f6694ec387",
-    "time": "2024-07-27T06:33:12.306Z",
-    "temperature": 39,
-    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+    "_id": "66a4956acca9d40e81691e7e",
+    "id": "26d92029-c162-4f71-9610-631d62dcdc5d",
+    "time": "2024-07-27T06:36:26.057Z",
+    "temperature": 34,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a494b0cca9d40e81691dec",
-    "id": "895bb99d-b14f-4d27-b7bd-6b5345780ffb",
-    "time": "2024-07-27T06:33:20.141Z",
-    "temperature": 37,
+    "_id": "66a49578cca9d40e81691e88",
+    "id": "7db35938-d431-4ceb-8b03-3e24b5b93950",
+    "time": "2024-07-27T06:36:40.460Z",
+    "temperature": 32,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a49588cca9d40e81691e96",
+    "id": "808f8ec1-6774-4620-8a31-b4051d1043e3",
+    "time": "2024-07-27T06:36:56.122Z",
+    "temperature": 33,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a494bacca9d40e81691df8",
-    "id": "e2fbf1a8-358c-46a9-ab63-fad21698985d",
-    "time": "2024-07-27T06:33:30.742Z",
-    "temperature": 39,
+    "_id": "66a49592cca9d40e81691e9c",
+    "id": "3719b3ec-e1ef-4e1d-b91c-187633af726c",
+    "time": "2024-07-27T06:37:06.151Z",
+    "temperature": 30,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a494d5cca9d40e81691e10",
-    "id": "3f6ea223-d3b8-4c62-bfa3-30c819f23d50",
-    "time": "2024-07-27T06:33:57.377Z",
-    "temperature": 40,
+    "_id": "66a49593cca9d40e81691e9e",
+    "id": "2c3779ff-26dd-4eb2-b08b-a7b79763d48d",
+    "time": "2024-07-27T06:37:07.682Z",
+    "temperature": 32,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a495a1cca9d40e81691ea8",
+    "id": "f4ea4d34-a70e-4d80-9c7d-9e176af3c5c0",
+    "time": "2024-07-27T06:37:21.173Z",
+    "temperature": 35,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a495b4cca9d40e81691eba",
+    "id": "40307026-a213-4bec-820f-7487fa28144b",
+    "time": "2024-07-27T06:37:40.555Z",
+    "temperature": 35,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a495c3cca9d40e81691ec2",
+    "id": "f7b69b2a-8e78-4dd3-956c-10844773bd90",
+    "time": "2024-07-27T06:37:55.580Z",
+    "temperature": 30,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a494e2cca9d40e81691e1c",
-    "id": "108d040f-8069-4428-a4b7-b302d5c70d66",
-    "time": "2024-07-27T06:34:10.794Z",
-    "temperature": 37,
+    "_id": "66a495cecca9d40e81691ece",
+    "id": "6b6f86c3-243a-45f8-8334-0aea3942c0fa",
+    "time": "2024-07-27T06:38:06.251Z",
+    "temperature": 34,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49516cca9d40e81691e40",
-    "id": "bb8be04b-2b50-4268-8f24-bd676fa1445d",
-    "time": "2024-07-27T06:35:02.481Z",
-    "temperature": 37,
+    "_id": "66a495ddcca9d40e81691eda",
+    "id": "d5765392-967d-438b-ae65-c2b3c805b705",
+    "time": "2024-07-27T06:38:21.284Z",
+    "temperature": 34,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a495e2cca9d40e81691ee0",
+    "id": "52b3302e-03f0-4fb3-a614-3f3bef347380",
+    "time": "2024-07-27T06:38:26.284Z",
+    "temperature": 31,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a495e8cca9d40e81691ee2",
+    "id": "bfacbae7-a53f-4db5-b493-8b6ea2dd5534",
+    "time": "2024-07-27T06:38:32.824Z",
+    "temperature": 33,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a495eccca9d40e81691ee6",
+    "id": "79fb91bc-4776-4ad6-a0bc-7059aba6274d",
+    "time": "2024-07-27T06:38:36.312Z",
+    "temperature": 35,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a4952acca9d40e81691e52",
-    "id": "93c54cea-7fdc-4f3b-897c-605f8609b506",
-    "time": "2024-07-27T06:35:22.495Z",
-    "temperature": 37,
+    "_id": "66a495edcca9d40e81691ee8",
+    "id": "7ac1af74-8cf5-4a5f-ac8e-84897f183cad",
+    "time": "2024-07-27T06:38:37.830Z",
+    "temperature": 32,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a4955fcca9d40e81691e74",
-    "id": "8daa3301-09a7-4549-93b0-d20ae4d7f219",
-    "time": "2024-07-27T06:36:15.415Z",
-    "temperature": 40,
+    "_id": "66a495facca9d40e81691ef0",
+    "id": "fb18bf58-8401-49d9-96bf-6316813a3918",
+    "time": "2024-07-27T06:38:50.690Z",
+    "temperature": 33,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49565cca9d40e81691e7a",
-    "id": "ac495bc5-bc63-42f4-915c-3a4b05bbf367",
-    "time": "2024-07-27T06:36:21.051Z",
-    "temperature": 38,
+    "_id": "66a4960acca9d40e81691efe",
+    "id": "ca9b728e-466f-4318-b866-e15d27081967",
+    "time": "2024-07-27T06:39:06.373Z",
+    "temperature": 33,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a4958ecca9d40e81691e98",
-    "id": "0e637190-9e2e-4b1e-b1e1-b5a7ef64e2fd",
-    "time": "2024-07-27T06:37:02.673Z",
-    "temperature": 39,
+    "_id": "66a4960bcca9d40e81691f00",
+    "id": "e740b777-e658-47fe-8745-ac47e00489ca",
+    "time": "2024-07-27T06:39:07.900Z",
+    "temperature": 32,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a49613cca9d40e81691f04",
+    "id": "a8f6ec74-df3d-4261-9332-03cf63741767",
+    "time": "2024-07-27T06:39:15.709Z",
+    "temperature": 35,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a49622cca9d40e81691f0e",
+    "id": "1a5dbfed-1d93-446d-b3cb-b310b1063211",
+    "time": "2024-07-27T06:39:30.741Z",
+    "temperature": 31,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49597cca9d40e81691ea0",
-    "id": "19f40c4e-b3f3-430c-abf3-929f228f2744",
-    "time": "2024-07-27T06:37:11.155Z",
-    "temperature": 37,
+    "_id": "66a49623cca9d40e81691f10",
+    "id": "bd8d6053-757a-4439-a462-610a2356ec0d",
+    "time": "2024-07-27T06:39:31.430Z",
+    "temperature": 34,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a495aacca9d40e81691eb0",
-    "id": "df7a1027-4156-4bf3-8be7-a01e34303504",
-    "time": "2024-07-27T06:37:30.539Z",
-    "temperature": 38,
+    "_id": "66a49631cca9d40e81691f1a",
+    "id": "51aa3eac-b696-46d7-938a-286f0be55d86",
+    "time": "2024-07-27T06:39:45.765Z",
+    "temperature": 31,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a495becca9d40e81691ec0",
-    "id": "faff1ed6-36e8-4f66-9798-66ebf80dddf4",
-    "time": "2024-07-27T06:37:50.574Z",
-    "temperature": 39,
+    "_id": "66a49640cca9d40e81691f26",
+    "id": "fd2ef20b-9e3c-4830-9155-d4cb31c80c49",
+    "time": "2024-07-27T06:40:00.787Z",
+    "temperature": 31,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a49643cca9d40e81691f2a",
+    "id": "a4075fc1-6365-410f-b4d3-bcdb39f5e9fa",
+    "time": "2024-07-27T06:40:03.004Z",
+    "temperature": 30,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a49648cca9d40e81691f2e",
+    "id": "bed3be40-80d7-4c96-8595-da87c01fb996",
+    "time": "2024-07-27T06:40:08.010Z",
+    "temperature": 32,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a495c8cca9d40e81691ec8",
-    "id": "c560d2df-bbc8-4790-9d59-ca0349601e3e",
-    "time": "2024-07-27T06:38:00.585Z",
-    "temperature": 38,
+    "_id": "66a49669cca9d40e81691f44",
+    "id": "2a5a7a95-bca1-4d45-a476-9561198fe402",
+    "time": "2024-07-27T06:40:41.535Z",
+    "temperature": 31,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a4966dcca9d40e81691f48",
+    "id": "94cce490-e0c0-4baf-bd89-c72cd2ea6833",
+    "time": "2024-07-27T06:40:45.872Z",
+    "temperature": 35,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a495d8cca9d40e81691ed4",
-    "id": "e45809c1-26dd-4367-af7f-efc00ad9ffa9",
-    "time": "2024-07-27T06:38:16.278Z",
-    "temperature": 37,
+    "_id": "66a49682cca9d40e81691f58",
+    "id": "07f7cd0d-5d47-48a4-92e7-e1e094bcfefb",
+    "time": "2024-07-27T06:41:06.573Z",
+    "temperature": 30,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a495d9cca9d40e81691ed6",
-    "id": "1c63c0b0-5fbb-4014-b0fb-9c28a683c931",
-    "time": "2024-07-27T06:38:17.793Z",
-    "temperature": 37,
+    "_id": "66a49684cca9d40e81691f5a",
+    "id": "37496df7-cc2b-4594-a0c6-cf392b850b68",
+    "time": "2024-07-27T06:41:08.123Z",
+    "temperature": 33,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a495ebcca9d40e81691ee4",
-    "id": "cb6b582b-cb79-4145-9606-87702178afb5",
-    "time": "2024-07-27T06:38:35.666Z",
-    "temperature": 37,
+    "_id": "66a49686cca9d40e81691f5c",
+    "id": "7f7899a2-5747-416d-9775-8a6f3ea7f8c2",
+    "time": "2024-07-27T06:41:10.927Z",
+    "temperature": 30,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a496a0cca9d40e81691f6e",
+    "id": "faf531f2-f131-416a-944b-279cdeee9bc8",
+    "time": "2024-07-27T06:41:36.634Z",
+    "temperature": 31,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a496bbcca9d40e81691f84",
+    "id": "2e1979d2-7ef9-4b90-89a7-15f34bcd8de3",
+    "time": "2024-07-27T06:42:03.215Z",
+    "temperature": 31,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a495ffcca9d40e81691ef4",
-    "id": "5ade14be-8d59-4af8-a8e4-8be7c49fae25",
-    "time": "2024-07-27T06:38:55.699Z",
-    "temperature": 38,
+    "_id": "66a496c3cca9d40e81691f86",
+    "id": "0a26cf50-842e-4b68-a781-5c879ac0d366",
+    "time": "2024-07-27T06:42:11.055Z",
+    "temperature": 34,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a496cacca9d40e81691f8e",
+    "id": "50836ba6-0682-477f-88bd-6b498cf6eddb",
+    "time": "2024-07-27T06:42:18.248Z",
+    "temperature": 31,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49604cca9d40e81691ef8",
-    "id": "d4dcb1d3-a6f8-4ecd-9ea5-cf69eedacee6",
-    "time": "2024-07-27T06:39:00.700Z",
-    "temperature": 39,
+    "_id": "66a496cdcca9d40e81691f90",
+    "id": "2c9674bc-2492-4951-886f-502adba55b5e",
+    "time": "2024-07-27T06:42:21.073Z",
+    "temperature": 33,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a4960fcca9d40e81691f02",
-    "id": "eeda3244-4c61-459e-9559-cd1bf0b8ff41",
-    "time": "2024-07-27T06:39:11.381Z",
-    "temperature": 39,
+    "_id": "66a496d2cca9d40e81691f94",
+    "id": "b1dfbd08-80b8-4040-83ba-2f22d40b4d06",
+    "time": "2024-07-27T06:42:26.689Z",
+    "temperature": 33,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49627cca9d40e81691f12",
-    "id": "f34b5f64-d109-441d-89ea-11aa547a277c",
-    "time": "2024-07-27T06:39:35.744Z",
-    "temperature": 40,
+    "_id": "66a496dccca9d40e81691f98",
+    "id": "6f608bed-7561-401a-93da-ed00c9985acd",
+    "time": "2024-07-27T06:42:36.087Z",
+    "temperature": 34,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a4962dcca9d40e81691f18",
-    "id": "2b3fd341-5ca6-4652-9699-d4d82defac5d",
-    "time": "2024-07-27T06:39:41.438Z",
-    "temperature": 40,
-    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+    "_id": "66a496e6cca9d40e81691fa2",
+    "id": "642c3e7b-a255-4210-bb5b-db3a89bc9b1f",
+    "time": "2024-07-27T06:42:46.104Z",
+    "temperature": 30,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49637cca9d40e81691f20",
-    "id": "3855e3ff-b0e9-44a2-92a9-1f811470ff2c",
-    "time": "2024-07-27T06:39:51.449Z",
-    "temperature": 40,
+    "_id": "66a496f5cca9d40e81691fac",
+    "id": "a16ee09e-d2dd-4c2c-89a1-903b5a429202",
+    "time": "2024-07-27T06:43:01.762Z",
+    "temperature": 34,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a4964bcca9d40e81691f30",
-    "id": "f99eefac-44af-4bf0-907a-6e4097d406e7",
-    "time": "2024-07-27T06:40:11.497Z",
-    "temperature": 39,
+    "_id": "66a496facca9d40e81691fb2",
+    "id": "05abb9ea-5d2c-4ed1-b30e-af4abe7e5332",
+    "time": "2024-07-27T06:43:06.768Z",
+    "temperature": 35,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49655cca9d40e81691f36",
-    "id": "d3a374a8-9582-466e-b866-135965280202",
-    "time": "2024-07-27T06:40:21.508Z",
-    "temperature": 37,
+    "_id": "66a49713cca9d40e81691fc2",
+    "id": "6ee32ca4-2293-48f7-ac5b-e05bc70320be",
+    "time": "2024-07-27T06:43:31.817Z",
+    "temperature": 35,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49664cca9d40e81691f40",
-    "id": "95ef3945-0bc9-4a29-96aa-04249a7b9892",
-    "time": "2024-07-27T06:40:36.534Z",
-    "temperature": 39,
-    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+    "_id": "66a49736cca9d40e81691fda",
+    "id": "dd0ce038-b8c7-4490-844b-69d1572e8f36",
+    "time": "2024-07-27T06:44:06.242Z",
+    "temperature": 30,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a4973dcca9d40e81691fe2",
+    "id": "69c71e91-678e-482c-a24a-67b6fbae2058",
+    "time": "2024-07-27T06:44:13.461Z",
+    "temperature": 32,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49677cca9d40e81691f50",
-    "id": "e0ef6e64-b1e4-4581-aa1f-2aa4385e7bd7",
-    "time": "2024-07-27T06:40:55.897Z",
-    "temperature": 38,
+    "_id": "66a49740cca9d40e81691fe4",
+    "id": "6748e422-c470-4f12-8865-36aac546da95",
+    "time": "2024-07-27T06:44:16.259Z",
+    "temperature": 32,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a4969acca9d40e81691f6a",
-    "id": "6d45db04-b220-41b8-8bff-a8513142cc13",
-    "time": "2024-07-27T06:41:30.986Z",
-    "temperature": 38,
+    "_id": "66a4974acca9d40e81691fea",
+    "id": "9405658b-6fec-4c88-aa1b-aedd6656228b",
+    "time": "2024-07-27T06:44:26.277Z",
+    "temperature": 35,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a49754cca9d40e81691ff4",
+    "id": "c21b8765-72e3-4a8d-b4fc-0ebe80f2aa2e",
+    "time": "2024-07-27T06:44:36.920Z",
+    "temperature": 35,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49715cca9d40e81691fc4",
-    "id": "53f0a68f-1b8c-4cae-8a92-9d3356d7c5a4",
-    "time": "2024-07-27T06:43:33.385Z",
-    "temperature": 40,
+    "_id": "66a49756cca9d40e81691ff6",
+    "id": "cb9f31b6-7a2a-44fc-8d7b-ece45fde3f67",
+    "time": "2024-07-27T06:44:38.482Z",
+    "temperature": 33,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49727cca9d40e81691fd2",
-    "id": "1dc035f7-3851-4fc3-9324-a17eb7af6f15",
-    "time": "2024-07-27T06:43:51.846Z",
-    "temperature": 37,
-    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+    "_id": "66a49763cca9d40e81692000",
+    "id": "a69c43ea-4428-4c87-86f7-b89c26a751b9",
+    "time": "2024-07-27T06:44:51.332Z",
+    "temperature": 32,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49736cca9d40e81691fdc",
-    "id": "27107231-3643-417f-9738-c9bac776fa7f",
-    "time": "2024-07-27T06:44:06.874Z",
-    "temperature": 39,
+    "_id": "66a49768cca9d40e81692004",
+    "id": "ba275458-db17-403f-ab35-e44f1f1dbbb2",
+    "time": "2024-07-27T06:44:56.964Z",
+    "temperature": 30,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49747cca9d40e81691fe8",
-    "id": "e38cdbf8-3b11-484f-9f72-2b97c7150ff3",
-    "time": "2024-07-27T06:44:23.476Z",
-    "temperature": 38,
+    "_id": "66a4976acca9d40e81692006",
+    "id": "29f4e988-7b6b-43ae-bedf-7373f5eb95b5",
+    "time": "2024-07-27T06:44:58.498Z",
+    "temperature": 30,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a49791cca9d40e81692022",
+    "id": "945f6f6b-094e-4a2c-9c21-2b39ef2f1730",
+    "time": "2024-07-27T06:45:37.029Z",
+    "temperature": 31,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49751cca9d40e81691ff0",
-    "id": "a8566a5c-d571-43c9-9952-771c9fb70530",
-    "time": "2024-07-27T06:44:33.480Z",
-    "temperature": 39,
+    "_id": "66a497a1cca9d40e81692030",
+    "id": "ff359e40-c4e8-4648-8caa-986a201e096f",
+    "time": "2024-07-27T06:45:53.623Z",
+    "temperature": 30,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49759cca9d40e81691ff8",
-    "id": "829798f9-aef6-492d-a1ca-218771d9caaa",
-    "time": "2024-07-27T06:44:41.310Z",
-    "temperature": 40,
+    "_id": "66a497bdcca9d40e81692046",
+    "id": "ba53d904-fef5-4289-a193-d305df5469f7",
+    "time": "2024-07-27T06:46:21.470Z",
+    "temperature": 35,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49787cca9d40e8169201c",
-    "id": "2ccc69fd-6dd8-4165-8bdf-630d1f15c86a",
-    "time": "2024-07-27T06:45:27.012Z",
-    "temperature": 38,
+    "_id": "66a497becca9d40e81692048",
+    "id": "6e4f6bb3-d17b-49d2-8877-55081ae22d25",
+    "time": "2024-07-27T06:46:22.098Z",
+    "temperature": 35,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49788cca9d40e8169201e",
-    "id": "06cf038c-383e-49e8-9aed-b50ce7dd0008",
-    "time": "2024-07-27T06:45:28.561Z",
-    "temperature": 38,
+    "_id": "66a497f6cca9d40e81692074",
+    "id": "bc911424-2ccb-4162-9013-5d305580c2b7",
+    "time": "2024-07-27T06:47:18.741Z",
+    "temperature": 31,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a497c3cca9d40e8169204e",
-    "id": "db0b12c3-05ac-49af-b16f-5653da290f10",
-    "time": "2024-07-27T06:46:27.101Z",
-    "temperature": 37,
-    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+    "_id": "66a49803cca9d40e8169207c",
+    "id": "66180e0d-95eb-48ca-bf94-644b83a62356",
+    "time": "2024-07-27T06:47:31.590Z",
+    "temperature": 35,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a497c4cca9d40e81692050",
-    "id": "d2a56986-b996-4327-9863-251da773320f",
-    "time": "2024-07-27T06:46:28.659Z",
-    "temperature": 38,
-    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+    "_id": "66a49809cca9d40e81692080",
+    "id": "3cf3e864-4376-48b1-9861-3966d9448fd7",
+    "time": "2024-07-27T06:47:37.187Z",
+    "temperature": 30,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a497c8cca9d40e81692052",
-    "id": "e43f869c-8e78-402c-baab-48968f1c43dc",
-    "time": "2024-07-27T06:46:32.102Z",
-    "temperature": 40,
+    "_id": "66a49827cca9d40e81692092",
+    "id": "cb9493ef-5eb0-4252-8912-85ce19284288",
+    "time": "2024-07-27T06:48:07.251Z",
+    "temperature": 32,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a497cecca9d40e81692056",
-    "id": "b4e06821-6db7-44f2-9b6d-2d5a19595ead",
-    "time": "2024-07-27T06:46:38.676Z",
-    "temperature": 39,
+    "_id": "66a49828cca9d40e81692094",
+    "id": "19e6ffc0-1633-4dec-bfac-80cbed2e0ca8",
+    "time": "2024-07-27T06:48:08.847Z",
+    "temperature": 32,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a497dccca9d40e81692062",
-    "id": "19955651-170f-478f-94c5-583cde5f3d51",
-    "time": "2024-07-27T06:46:52.129Z",
-    "temperature": 40,
+    "_id": "66a4984fcca9d40e816920b0",
+    "id": "757aa14d-0160-4e7b-b197-d624d277e3e9",
+    "time": "2024-07-27T06:48:47.299Z",
+    "temperature": 30,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a497f9cca9d40e81692076",
-    "id": "ec172e94-ab49-4a22-94d2-c233cf387c7e",
-    "time": "2024-07-27T06:47:21.573Z",
-    "temperature": 40,
+    "_id": "66a49858cca9d40e816920b8",
+    "id": "d9c0e6f5-91dc-4732-86e1-b353f173d052",
+    "time": "2024-07-27T06:48:56.763Z",
+    "temperature": 35,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49814cca9d40e81692088",
-    "id": "51a06a74-4409-4baf-81e4-2cd889f731e6",
-    "time": "2024-07-27T06:47:48.802Z",
-    "temperature": 40,
-    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+    "_id": "66a4986dcca9d40e816920c8",
+    "id": "f755a5a6-6007-4d7f-8c16-c6d2d5010a7e",
+    "time": "2024-07-27T06:49:17.344Z",
+    "temperature": 34,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49817cca9d40e8169208a",
-    "id": "c05ce553-e328-4b8d-a334-7725cf65928c",
-    "time": "2024-07-27T06:47:51.639Z",
-    "temperature": 37,
+    "_id": "66a4987bcca9d40e816920d2",
+    "id": "f49c4f2d-9aea-4d36-8bb2-75bb17b6b30c",
+    "time": "2024-07-27T06:49:31.805Z",
+    "temperature": 31,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a4987ccca9d40e816920d4",
+    "id": "2aae5faf-cb34-48c3-b587-47449e98a436",
+    "time": "2024-07-27T06:49:32.367Z",
+    "temperature": 35,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49853cca9d40e816920b4",
-    "id": "71203670-2527-4a5c-adf2-f12e18f12c6e",
-    "time": "2024-07-27T06:48:51.759Z",
-    "temperature": 39,
+    "_id": "66a49885cca9d40e816920da",
+    "id": "59484a41-8a8a-41c8-b555-75a0aa0e1244",
+    "time": "2024-07-27T06:49:41.820Z",
+    "temperature": 33,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a4988bcca9d40e816920de",
+    "id": "345a9cc2-d5d1-45ff-96a0-97a5af5e4563",
+    "time": "2024-07-27T06:49:47.397Z",
+    "temperature": 35,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49855cca9d40e816920b6",
-    "id": "0761d666-6781-4633-87ef-6c14af60a94f",
-    "time": "2024-07-27T06:48:53.921Z",
-    "temperature": 40,
+    "_id": "66a49892cca9d40e816920e2",
+    "id": "2195c9a0-2eae-4fd5-9a4d-e0ad45726dd0",
+    "time": "2024-07-27T06:49:54.042Z",
+    "temperature": 34,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a4985dcca9d40e816920bc",
-    "id": "01b043e3-f166-437b-9d82-99948bbdd5ec",
-    "time": "2024-07-27T06:49:01.767Z",
-    "temperature": 38,
+    "_id": "66a4989ecca9d40e816920ec",
+    "id": "39687cfa-005a-4cb9-ae54-d4e881c32a97",
+    "time": "2024-07-27T06:50:06.867Z",
+    "temperature": 30,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a4985ecca9d40e816920be",
-    "id": "5b5ce428-849d-4245-8841-d15758aa1d42",
-    "time": "2024-07-27T06:49:02.316Z",
-    "temperature": 37,
+    "_id": "66a498a4cca9d40e816920f0",
+    "id": "e1af3baa-6759-4413-aa52-40b6a68dbb16",
+    "time": "2024-07-27T06:50:12.429Z",
+    "temperature": 34,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49868cca9d40e816920c4",
-    "id": "d0502dd8-2272-4b04-b3c1-d94cde2d4325",
-    "time": "2024-07-27T06:49:12.342Z",
-    "temperature": 40,
-    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+    "_id": "66a498a6cca9d40e816920f2",
+    "id": "d459dbe8-1c34-4b1d-8974-d8853acb2042",
+    "time": "2024-07-27T06:50:14.074Z",
+    "temperature": 31,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49899cca9d40e816920e6",
-    "id": "530790d4-44a9-4073-87d2-2e301980fed9",
-    "time": "2024-07-27T06:50:01.865Z",
-    "temperature": 40,
+    "_id": "66a498a8cca9d40e816920f4",
+    "id": "890d2af6-0449-4eae-9800-ca1fdd63e1f7",
+    "time": "2024-07-27T06:50:16.883Z",
+    "temperature": 32,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a4989acca9d40e816920e8",
-    "id": "c07dbcef-9c1e-49ad-ad25-c0afe3aec865",
-    "time": "2024-07-27T06:50:02.428Z",
-    "temperature": 37,
+    "_id": "66a498b2cca9d40e816920fc",
+    "id": "40e62e66-0159-4be9-8283-9a3125d3741d",
+    "time": "2024-07-27T06:50:26.911Z",
+    "temperature": 33,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a498b8cca9d40e816920fe",
+    "id": "b33f8436-89ff-4a3a-bb18-da6c2e5d72ba",
+    "time": "2024-07-27T06:50:32.459Z",
+    "temperature": 35,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a498b0cca9d40e816920fa",
-    "id": "1eb7742f-1684-4e74-b8b1-021cb177ac76",
-    "time": "2024-07-27T06:50:24.090Z",
-    "temperature": 38,
+    "_id": "66a498cecca9d40e81692110",
+    "id": "b56c8d9c-ca04-4a19-aed0-bfdad0fb69ca",
+    "time": "2024-07-27T06:50:54.152Z",
+    "temperature": 34,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a498e0cca9d40e8169211c",
-    "id": "320296e0-cc32-4230-b2dd-77035ffbfc13",
-    "time": "2024-07-27T06:51:12.517Z",
-    "temperature": 40,
+    "_id": "66a498d8cca9d40e81692116",
+    "id": "824cabb5-ce45-4055-9ba8-f4018ddfdb38",
+    "time": "2024-07-27T06:51:04.163Z",
+    "temperature": 34,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a498eacca9d40e81692124",
+    "id": "979d7787-7076-486f-b445-fa30b97e78cc",
+    "time": "2024-07-27T06:51:22.539Z",
+    "temperature": 35,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a498eacca9d40e81692122",
-    "id": "37fc0be8-a251-40cb-9402-61301bc350a1",
-    "time": "2024-07-27T06:51:22.021Z",
-    "temperature": 37,
+    "_id": "66a498f4cca9d40e81692128",
+    "id": "44b08e98-8ef8-4e47-9dc9-377b2e53474b",
+    "time": "2024-07-27T06:51:32.039Z",
+    "temperature": 32,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a4990acca9d40e81692138",
-    "id": "2c3685ac-d54d-402f-a8c4-b4880e6e2299",
-    "time": "2024-07-27T06:51:54.257Z",
-    "temperature": 38,
-    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+    "_id": "66a4991ccca9d40e81692148",
+    "id": "e8bc8f8d-5638-4da2-88a2-342b229709d2",
+    "time": "2024-07-27T06:52:12.087Z",
+    "temperature": 32,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a49926cca9d40e8169214e",
+    "id": "85ae5eb1-15bb-4a36-9978-192f3f1934a5",
+    "time": "2024-07-27T06:52:22.111Z",
+    "temperature": 35,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a4990fcca9d40e8169213c",
-    "id": "0925af97-e3f1-4a70-a5de-869e9e090fcf",
-    "time": "2024-07-27T06:51:59.265Z",
-    "temperature": 40,
+    "_id": "66a4993ccca9d40e8169215c",
+    "id": "46b0f24f-e82f-4aec-9338-87ebd235d5ca",
+    "time": "2024-07-27T06:52:44.342Z",
+    "temperature": 32,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49912cca9d40e81692140",
-    "id": "aa37b2fc-472a-4b5f-a9a3-b4bb39f2c770",
-    "time": "2024-07-27T06:52:02.612Z",
-    "temperature": 40,
+    "_id": "66a4993fcca9d40e8169215e",
+    "id": "72b22a15-98fd-4145-aca2-4ec73a41871f",
+    "time": "2024-07-27T06:52:47.688Z",
+    "temperature": 33,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49930cca9d40e81692154",
-    "id": "8cd66319-b454-4932-b0f8-465fc9fcba8b",
-    "time": "2024-07-27T06:52:32.136Z",
-    "temperature": 38,
+    "_id": "66a49949cca9d40e81692166",
+    "id": "ed4caddc-6be2-48f6-846a-c7a7d224cff4",
+    "time": "2024-07-27T06:52:57.183Z",
+    "temperature": 34,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a49949cca9d40e81692168",
+    "id": "412534ec-5700-4ff7-8047-fb84ceebb29c",
+    "time": "2024-07-27T06:52:57.700Z",
+    "temperature": 32,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49964cca9d40e8169217c",
-    "id": "01986488-e1f8-4837-8f7a-fc2e8e97d9bb",
-    "time": "2024-07-27T06:53:24.405Z",
-    "temperature": 38,
+    "_id": "66a4994bcca9d40e8169216a",
+    "id": "9cfad8b1-84db-4fe4-94ac-ad5e798150e7",
+    "time": "2024-07-27T06:52:59.371Z",
+    "temperature": 35,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49967cca9d40e8169217e",
-    "id": "17705e08-5152-488e-a97f-33b893f1b3d7",
-    "time": "2024-07-27T06:53:27.222Z",
-    "temperature": 38,
-    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+    "_id": "66a49978cca9d40e8169218c",
+    "id": "11822813-1809-46ca-8c3b-b3b3203d54df",
+    "time": "2024-07-27T06:53:44.442Z",
+    "temperature": 32,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a4998acca9d40e81692196",
+    "id": "9fa64e12-f923-4d27-8ed1-c293e79678b9",
+    "time": "2024-07-27T06:54:02.831Z",
+    "temperature": 30,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a49999cca9d40e816921a4",
+    "id": "bd533967-ee9e-4698-9437-60ee9d4c79cf",
+    "time": "2024-07-27T06:54:17.854Z",
+    "temperature": 31,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a499a5cca9d40e816921b0",
+    "id": "77fbf342-0a45-45fb-b543-35e9b2e4760d",
+    "time": "2024-07-27T06:54:29.504Z",
+    "temperature": 30,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a4996ccca9d40e81692182",
-    "id": "f58c8333-6cc3-4987-92a2-f2218e52ead2",
-    "time": "2024-07-27T06:53:32.776Z",
-    "temperature": 40,
+    "_id": "66a499bccca9d40e816921c2",
+    "id": "a8e0f5b3-ce13-41eb-99e7-42ff40e25897",
+    "time": "2024-07-27T06:54:52.895Z",
+    "temperature": 30,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49980cca9d40e81692190",
-    "id": "6722f147-3418-4176-b841-3a7f2b160128",
-    "time": "2024-07-27T06:53:52.816Z",
-    "temperature": 39,
+    "_id": "66a499c6cca9d40e816921cc",
+    "id": "847d0ffa-1e28-4605-b833-6d2153141313",
+    "time": "2024-07-27T06:55:02.898Z",
+    "temperature": 31,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a499cdcca9d40e816921d2",
+    "id": "ef8d99f2-8aae-4e63-a5c5-0ed68b209cce",
+    "time": "2024-07-27T06:55:09.571Z",
+    "temperature": 33,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49994cca9d40e8169219e",
-    "id": "d5860b7c-0b52-4f20-847b-a31ebbbdfd6e",
-    "time": "2024-07-27T06:54:12.286Z",
-    "temperature": 40,
+    "_id": "66a499dfcca9d40e816921e0",
+    "id": "4c78c12a-dab5-49dd-8656-6f367997b3d7",
+    "time": "2024-07-27T06:55:27.394Z",
+    "temperature": 35,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49996cca9d40e816921a0",
-    "id": "3826a9ee-d26e-4e32-b7fb-2a3ffcb73a1f",
-    "time": "2024-07-27T06:54:14.487Z",
-    "temperature": 38,
+    "_id": "66a499e1cca9d40e816921e2",
+    "id": "74e03607-d651-431a-ae65-3000f35d8579",
+    "time": "2024-07-27T06:55:29.598Z",
+    "temperature": 30,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a4999ecca9d40e816921a8",
-    "id": "eea1789e-3d27-4e19-b6e2-30c40fb84e90",
-    "time": "2024-07-27T06:54:22.855Z",
-    "temperature": 40,
+    "_id": "66a499e9cca9d40e816921e6",
+    "id": "fd78d343-d832-4d58-9c74-ba47e31357f3",
+    "time": "2024-07-27T06:55:37.410Z",
+    "temperature": 33,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a499e9cca9d40e816921e8",
+    "id": "52339dd0-b80d-4cf6-bfb8-2a6ba613c7a0",
+    "time": "2024-07-27T06:55:37.960Z",
+    "temperature": 31,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a49a13cca9d40e81692202",
+    "id": "105cc512-00a9-40f3-9e6a-6f55e6178cd4",
+    "time": "2024-07-27T06:56:19.712Z",
+    "temperature": 32,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a49a18cca9d40e81692206",
+    "id": "41bd908c-5979-4024-93b4-5632dfb4663e",
+    "time": "2024-07-27T06:56:24.716Z",
+    "temperature": 33,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a499a3cca9d40e816921ac",
-    "id": "ad82d0b1-3135-4729-95b7-d547180c4478",
-    "time": "2024-07-27T06:54:27.294Z",
-    "temperature": 39,
+    "_id": "66a49a1bcca9d40e81692208",
+    "id": "e6059538-bd5d-4e30-a4f7-a96ae4f0acd7",
+    "time": "2024-07-27T06:56:27.520Z",
+    "temperature": 31,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a49a35cca9d40e8169221e",
+    "id": "f0b2e8c0-1358-44f4-a24f-dada81f98a7e",
+    "time": "2024-07-27T06:56:53.078Z",
+    "temperature": 34,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a499afcca9d40e816921b6",
-    "id": "f1b4ea7d-7ec7-4e95-b82b-8f35fcf81c5e",
-    "time": "2024-07-27T06:54:39.534Z",
-    "temperature": 39,
+    "_id": "66a49a4acca9d40e8169222c",
+    "id": "ac8bdef1-cdf9-4aa5-8e7e-6b7001fdc12a",
+    "time": "2024-07-27T06:57:14.820Z",
+    "temperature": 34,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a499cbcca9d40e816921d0",
-    "id": "68ad92d3-f001-4006-8bb2-8530d88a1dd2",
-    "time": "2024-07-27T06:55:07.365Z",
-    "temperature": 38,
+    "_id": "66a49a57cca9d40e81692234",
+    "id": "a522d57f-714f-423e-84ae-4a531a5d8d29",
+    "time": "2024-07-27T06:57:27.588Z",
+    "temperature": 31,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a499e4cca9d40e816921e4",
-    "id": "b3ba7d41-2629-465b-964c-e64998a7f6b3",
-    "time": "2024-07-27T06:55:32.951Z",
-    "temperature": 37,
+    "_id": "66a49a6ccca9d40e81692246",
+    "id": "e07aaa8f-48ea-4f29-869e-909b7adee4ed",
+    "time": "2024-07-27T06:57:48.158Z",
+    "temperature": 35,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a499ebcca9d40e816921ea",
-    "id": "d97a9ea8-cfcb-4a90-ba6f-37d076d2802e",
-    "time": "2024-07-27T06:55:39.621Z",
-    "temperature": 38,
+    "_id": "66a49a77cca9d40e81692252",
+    "id": "cf9823a4-3f70-429d-a9a8-e9e917f77f5b",
+    "time": "2024-07-27T06:57:59.904Z",
+    "temperature": 31,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a49a8acca9d40e8169225e",
+    "id": "7c90d3a5-8938-4138-81c4-01f7ebc3393c",
+    "time": "2024-07-27T06:58:18.217Z",
+    "temperature": 35,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a49a9ecca9d40e8169226e",
+    "id": "8ba200e6-2aa2-4ef4-8ed0-07674169dd8e",
+    "time": "2024-07-27T06:58:38.252Z",
+    "temperature": 31,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49a31cca9d40e8169221a",
-    "id": "e28870e4-c474-4e8a-8c04-b65d12cb5d4a",
-    "time": "2024-07-27T06:56:49.755Z",
-    "temperature": 37,
+    "_id": "66a49aa0cca9d40e81692270",
+    "id": "22dcc16f-42db-4bef-be14-eaf8d7f8fb9c",
+    "time": "2024-07-27T06:58:40.000Z",
+    "temperature": 32,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a49aadcca9d40e8169227a",
+    "id": "db049a83-ef99-47dc-8ddb-3fb5c99cf5b0",
+    "time": "2024-07-27T06:58:53.275Z",
+    "temperature": 33,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49a3ecca9d40e81692224",
-    "id": "3e97a113-a29b-4a3e-a7d2-52f575d58577",
-    "time": "2024-07-27T06:57:02.549Z",
-    "temperature": 40,
+    "_id": "66a49aedcca9d40e816922aa",
+    "id": "c188d1ab-23a5-4994-8061-2d240795e9ef",
+    "time": "2024-07-27T06:59:57.830Z",
+    "temperature": 33,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49a44cca9d40e81692228",
-    "id": "41690f5c-eda7-4fd7-9c7d-fecd2e5c043b",
-    "time": "2024-07-27T06:57:08.100Z",
-    "temperature": 39,
+    "_id": "66a49b0ecca9d40e816922c4",
+    "id": "7380c311-30d5-4f24-9525-fa7f879351c2",
+    "time": "2024-07-27T07:00:30.183Z",
+    "temperature": 32,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a49b1bcca9d40e816922d0",
+    "id": "c6a6f3bb-d453-44b6-b347-6f7b9dd86637",
+    "time": "2024-07-27T07:00:43.437Z",
+    "temperature": 34,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49a45cca9d40e8169222a",
-    "id": "b0eb2a4c-7c22-4d26-ac86-cd29870f7347",
-    "time": "2024-07-27T06:57:09.817Z",
-    "temperature": 40,
+    "_id": "66a49b2ccca9d40e816922de",
+    "id": "3e705f0b-e345-4523-9eb8-79c51c912fd2",
+    "time": "2024-07-27T07:01:00.222Z",
+    "temperature": 32,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49a61cca9d40e8169223e",
-    "id": "ffcb89b1-17cf-4ea6-bea7-8293a497181d",
-    "time": "2024-07-27T06:57:37.596Z",
-    "temperature": 38,
+    "_id": "66a49b2ecca9d40e816922e0",
+    "id": "aed2f9da-3be6-47dd-848e-b4954d961068",
+    "time": "2024-07-27T07:01:02.928Z",
+    "temperature": 32,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a49b31cca9d40e816922e2",
+    "id": "9a419a7c-4a81-49a8-82f4-9838500a4346",
+    "time": "2024-07-27T07:01:05.230Z",
+    "temperature": 32,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a49b36cca9d40e816922e6",
+    "id": "d1eadb86-218a-4ed1-9a24-f148dedd4e7a",
+    "time": "2024-07-27T07:01:10.231Z",
+    "temperature": 31,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a49b3ecca9d40e816922ee",
+    "id": "14a1d165-039a-438c-932e-759da95d1c26",
+    "time": "2024-07-27T07:01:18.499Z",
+    "temperature": 35,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a49b48cca9d40e816922f4",
+    "id": "9581cdb4-d8d4-4b49-be31-8eb7d30c1dd2",
+    "time": "2024-07-27T07:01:28.513Z",
+    "temperature": 33,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a49b54cca9d40e816922fc",
+    "id": "9dc65b6b-d2a2-4529-88c8-c9a96c0336b0",
+    "time": "2024-07-27T07:01:40.270Z",
+    "temperature": 32,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49a6dcca9d40e81692248",
-    "id": "cffc70bb-1cc7-45b6-919c-6385e57246ca",
-    "time": "2024-07-27T06:57:49.897Z",
-    "temperature": 37,
+    "_id": "66a49b59cca9d40e81692302",
+    "id": "36a1ce33-8f28-4693-9c72-5d384dcdbce8",
+    "time": "2024-07-27T07:01:45.271Z",
+    "temperature": 30,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a49b5ccca9d40e81692304",
+    "id": "53b2ca33-50e1-4c15-bf1c-4c22fed0ed35",
+    "time": "2024-07-27T07:01:48.543Z",
+    "temperature": 32,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49a7fcca9d40e81692256",
-    "id": "1992ad2f-832b-4b52-a787-da37829ba4d0",
-    "time": "2024-07-27T06:58:07.640Z",
-    "temperature": 38,
+    "_id": "66a49b61cca9d40e81692306",
+    "id": "505d887c-7823-4fee-b6a3-048a7fe8c9e9",
+    "time": "2024-07-27T07:01:53.031Z",
+    "temperature": 34,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49a8fcca9d40e81692262",
-    "id": "439bef53-74b5-4294-b163-6725798044f0",
-    "time": "2024-07-27T06:58:23.222Z",
-    "temperature": 38,
+    "_id": "66a49b6bcca9d40e81692310",
+    "id": "12dd13f8-06b6-40fa-b449-9fdef1e73563",
+    "time": "2024-07-27T07:02:03.561Z",
+    "temperature": 31,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49a99cca9d40e8169226a",
-    "id": "e6b9282f-13b7-4c8f-b874-8c38e2e2b4e0",
-    "time": "2024-07-27T06:58:33.248Z",
-    "temperature": 38,
+    "_id": "66a49b7fcca9d40e81692322",
+    "id": "f8681f95-b365-4b4c-a8d7-8b779796aa76",
+    "time": "2024-07-27T07:02:23.077Z",
+    "temperature": 31,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a49b84cca9d40e81692324",
+    "id": "fc9e1e79-36b4-4a91-a84e-cf52626071bf",
+    "time": "2024-07-27T07:02:28.081Z",
+    "temperature": 31,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a49b8ecca9d40e8169232c",
+    "id": "4eb964b8-94c5-4047-b9c6-8a29d0c18991",
+    "time": "2024-07-27T07:02:38.618Z",
+    "temperature": 30,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a49b98cca9d40e81692330",
+    "id": "fbbdc7b1-16a0-4c33-a4f3-a1a2de82044a",
+    "time": "2024-07-27T07:02:48.120Z",
+    "temperature": 33,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49aa8cca9d40e81692274",
-    "id": "a441162e-42c6-467f-add5-fb0fcde34d4f",
-    "time": "2024-07-27T06:58:48.268Z",
-    "temperature": 40,
+    "_id": "66a49b98cca9d40e81692332",
+    "id": "0ff8cf1f-5b26-4d1e-b417-cf0c1c94a74d",
+    "time": "2024-07-27T07:02:48.637Z",
+    "temperature": 31,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49ac5cca9d40e8169228a",
-    "id": "b37b68fc-eb9b-4aa8-87c4-93deba464de3",
-    "time": "2024-07-27T06:59:17.743Z",
-    "temperature": 37,
+    "_id": "66a49baccca9d40e81692340",
+    "id": "bb6b79ec-f83c-4fd4-8ca8-49904402ba57",
+    "time": "2024-07-27T07:03:08.170Z",
+    "temperature": 32,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49ac6cca9d40e8169228c",
-    "id": "ca412bf5-561c-4816-89fe-2e0f01aebb63",
-    "time": "2024-07-27T06:59:18.320Z",
-    "temperature": 39,
+    "_id": "66a49baccca9d40e81692342",
+    "id": "4b7ca698-99e9-4a1f-94ce-f94e3a908d7a",
+    "time": "2024-07-27T07:03:08.656Z",
+    "temperature": 30,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49ac8cca9d40e8169228e",
-    "id": "daf51be7-9d75-46ba-88cc-a0ba189c7c54",
-    "time": "2024-07-27T06:59:20.072Z",
-    "temperature": 40,
+    "_id": "66a49baecca9d40e81692344",
+    "id": "98bb9bb4-30de-4f14-856f-067d976408be",
+    "time": "2024-07-27T07:03:10.400Z",
+    "temperature": 32,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a49bb6cca9d40e8169234a",
+    "id": "e7f56ea1-bcb4-4571-9a38-b3b6b7a5a705",
+    "time": "2024-07-27T07:03:18.677Z",
+    "temperature": 33,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49adecca9d40e8169229e",
-    "id": "c5d3783d-6213-4eaa-acc0-99638dac91a0",
-    "time": "2024-07-27T06:59:42.798Z",
-    "temperature": 38,
+    "_id": "66a49bcacca9d40e81692356",
+    "id": "3e8d62fa-bb3e-47ea-96d5-ebd3b6e7beb0",
+    "time": "2024-07-27T07:03:38.220Z",
+    "temperature": 30,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49aebcca9d40e816922a8",
-    "id": "94f8f1b8-0a37-4074-a7d0-bb0179ad5f80",
-    "time": "2024-07-27T06:59:55.116Z",
-    "temperature": 37,
+    "_id": "66a49bd6cca9d40e81692360",
+    "id": "9280f938-4fe8-4858-9b39-f2a79d4783ad",
+    "time": "2024-07-27T07:03:50.462Z",
+    "temperature": 30,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49b63cca9d40e8169230a",
-    "id": "0fe0df8a-4257-4e0f-9747-8ebfaf092dbb",
-    "time": "2024-07-27T07:01:55.288Z",
-    "temperature": 40,
+    "_id": "66a49bf4cca9d40e81692376",
+    "id": "b71d7f4f-98fc-40c8-8c90-835f723f5016",
+    "time": "2024-07-27T07:04:20.506Z",
+    "temperature": 35,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49b7ccca9d40e81692320",
-    "id": "1dc3bed9-1879-414c-9228-1f6c2fbc6127",
-    "time": "2024-07-27T07:02:20.310Z",
-    "temperature": 38,
+    "_id": "66a49c0dcca9d40e8169238a",
+    "id": "27d5fd31-2494-477e-a022-bfff694542ce",
+    "time": "2024-07-27T07:04:45.541Z",
+    "temperature": 35,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a49c24cca9d40e8169239e",
+    "id": "1b2b50f1-9a08-4e57-a008-30205bc83ec9",
+    "time": "2024-07-27T07:05:08.355Z",
+    "temperature": 32,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49b8ecca9d40e8169232a",
-    "id": "e102c517-6072-42de-8c65-9304c0c2f530",
-    "time": "2024-07-27T07:02:38.105Z",
-    "temperature": 39,
+    "_id": "66a49c2ecca9d40e816923a8",
+    "id": "6c02a5ee-aac9-4452-9d05-07721a7c612a",
+    "time": "2024-07-27T07:05:18.386Z",
+    "temperature": 31,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a49c3acca9d40e816923b4",
+    "id": "358a93ab-a377-4c88-88d0-85a735c59213",
+    "time": "2024-07-27T07:05:30.581Z",
+    "temperature": 31,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a49c47cca9d40e816923be",
+    "id": "266e90a9-658e-4430-9c4d-b6f87a0dc4c5",
+    "time": "2024-07-27T07:05:43.928Z",
+    "temperature": 31,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a49c5dcca9d40e816923ce",
+    "id": "23b3c5c3-5d7b-4837-af4b-589fd4acda3c",
+    "time": "2024-07-27T07:06:05.627Z",
+    "temperature": 35,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49b9dcca9d40e81692336",
-    "id": "b24657c2-0eb5-4b3d-8b74-752092e76031",
-    "time": "2024-07-27T07:02:53.640Z",
-    "temperature": 37,
+    "_id": "66a49c70cca9d40e816923dc",
+    "id": "96ac7d8a-c1fd-4237-8cd8-168c90dcbc39",
+    "time": "2024-07-27T07:06:23.996Z",
+    "temperature": 35,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49ba2cca9d40e8169233a",
-    "id": "acff8931-ddf2-4ca3-a2e0-73162a94b97a",
-    "time": "2024-07-27T07:02:58.150Z",
-    "temperature": 39,
+    "_id": "66a49c74cca9d40e816923e0",
+    "id": "0f2f6f5c-3d2a-4d59-bc5a-61ed381d8429",
+    "time": "2024-07-27T07:06:28.502Z",
+    "temperature": 33,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49bcacca9d40e81692358",
-    "id": "c5c7cec5-cd06-44cf-a332-39ab353f5065",
-    "time": "2024-07-27T07:03:38.705Z",
-    "temperature": 40,
+    "_id": "66a49c84cca9d40e816923ea",
+    "id": "a3450ab0-17c1-41fe-a5c8-1a2210c2bedf",
+    "time": "2024-07-27T07:06:44.030Z",
+    "temperature": 30,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49c12cca9d40e8169238e",
-    "id": "14fb12c8-c579-402c-bb53-be64173fddc0",
-    "time": "2024-07-27T07:04:50.546Z",
-    "temperature": 38,
-    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+    "_id": "66a49c8ecca9d40e816923f0",
+    "id": "2c2b02e1-a833-4c42-a982-6d6d50c8ce0b",
+    "time": "2024-07-27T07:06:54.054Z",
+    "temperature": 31,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49c2ecca9d40e816923aa",
-    "id": "ca6de4b2-d5f3-42d5-a323-9eeb97253956",
-    "time": "2024-07-27T07:05:18.890Z",
-    "temperature": 37,
+    "_id": "66a49c98cca9d40e816923f6",
+    "id": "6d358413-5c58-4913-ad3f-cd6686959516",
+    "time": "2024-07-27T07:07:04.081Z",
+    "temperature": 30,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a49c99cca9d40e816923f8",
+    "id": "e4aff0c5-0950-4d23-9c79-f5c0f9a70a38",
+    "time": "2024-07-27T07:07:05.735Z",
+    "temperature": 31,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49c33cca9d40e816923ac",
-    "id": "07c2983c-0bd3-4658-a5d4-6970d109ed40",
-    "time": "2024-07-27T07:05:23.896Z",
-    "temperature": 40,
+    "_id": "66a49ca7cca9d40e81692402",
+    "id": "c679fc62-24de-4fba-a407-1a2fa1b3a2da",
+    "time": "2024-07-27T07:07:19.115Z",
+    "temperature": 34,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a49cb0cca9d40e81692406",
+    "id": "a49ab3be-b0cd-420e-b8ab-01a7b8af9e38",
+    "time": "2024-07-27T07:07:28.596Z",
+    "temperature": 32,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a49cb5cca9d40e8169240c",
+    "id": "cb0c7fac-290d-43c3-b98b-7631457780cd",
+    "time": "2024-07-27T07:07:33.603Z",
+    "temperature": 33,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a49cbccca9d40e81692414",
+    "id": "b366227d-563f-4226-81ec-d225a2de25c3",
+    "time": "2024-07-27T07:07:40.804Z",
+    "temperature": 34,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49c35cca9d40e816923ae",
-    "id": "ad45303f-f6d7-4ad4-a4dc-96653c3513b1",
-    "time": "2024-07-27T07:05:25.576Z",
-    "temperature": 38,
+    "_id": "66a49cd0cca9d40e81692424",
+    "id": "189b4ac5-7e00-4bac-b0ce-3052baac446b",
+    "time": "2024-07-27T07:08:00.834Z",
+    "temperature": 35,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a49ce3cca9d40e81692432",
+    "id": "c1741970-1f46-4592-bcb3-02bd72df1bbc",
+    "time": "2024-07-27T07:08:19.205Z",
+    "temperature": 33,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49c38cca9d40e816923b0",
-    "id": "ce68e52b-6a92-4922-9915-fd5c69c22e59",
-    "time": "2024-07-27T07:05:28.415Z",
-    "temperature": 40,
+    "_id": "66a49cfbcca9d40e81692444",
+    "id": "37b75741-cfad-4f60-957b-84d089ed40bb",
+    "time": "2024-07-27T07:08:43.717Z",
+    "temperature": 33,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49c38cca9d40e816923b2",
-    "id": "663dec59-2d0c-4725-bbed-1b03ba312da6",
-    "time": "2024-07-27T07:05:28.899Z",
-    "temperature": 39,
+    "_id": "66a49cfdcca9d40e81692448",
+    "id": "152651f3-dc6e-4ea0-bade-fc4e7ba489fb",
+    "time": "2024-07-27T07:08:45.889Z",
+    "temperature": 32,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a49d06cca9d40e8169244c",
+    "id": "6cbb973b-5b07-4104-81af-bf74aa03f40e",
+    "time": "2024-07-27T07:08:54.268Z",
+    "temperature": 32,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49c47cca9d40e816923bc",
-    "id": "4f7e6f04-9054-44c2-b2df-19d99b8faae5",
-    "time": "2024-07-27T07:05:43.431Z",
-    "temperature": 37,
+    "_id": "66a49d07cca9d40e8169244e",
+    "id": "8847ec62-4d22-4f22-b110-496ab763ea98",
+    "time": "2024-07-27T07:08:55.907Z",
+    "temperature": 34,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a49d19cca9d40e8169245a",
+    "id": "0bc93867-a9ea-4ef5-bb80-1b727526a93d",
+    "time": "2024-07-27T07:09:13.777Z",
+    "temperature": 34,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49c4ccca9d40e816923c2",
-    "id": "48201695-9eea-48e1-8acd-5b74ba15399e",
-    "time": "2024-07-27T07:05:48.430Z",
-    "temperature": 39,
+    "_id": "66a49d1ecca9d40e81692460",
+    "id": "dde55623-db8c-428f-a1c6-746b6c37cb46",
+    "time": "2024-07-27T07:09:18.781Z",
+    "temperature": 30,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49c5bcca9d40e816923cc",
-    "id": "e6c337bd-5998-462d-ae80-ce2a3a21c91b",
-    "time": "2024-07-27T07:06:03.963Z",
-    "temperature": 39,
+    "_id": "66a49d38cca9d40e81692476",
+    "id": "29fd67c6-3ffa-4f6a-bb55-d0d5226b2622",
+    "time": "2024-07-27T07:09:44.350Z",
+    "temperature": 33,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49c7bcca9d40e816923e4",
-    "id": "da635212-1fef-40e2-ba28-65f2e0ce0046",
-    "time": "2024-07-27T07:06:35.672Z",
-    "temperature": 37,
+    "_id": "66a49d39cca9d40e81692478",
+    "id": "c806f7d7-798a-4176-9d1b-90047339fbbf",
+    "time": "2024-07-27T07:09:45.989Z",
+    "temperature": 31,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a49d3dcca9d40e8169247a",
+    "id": "86009eab-2add-446a-a7f1-654425822935",
+    "time": "2024-07-27T07:09:49.354Z",
+    "temperature": 32,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49c88cca9d40e816923ee",
-    "id": "bd8afeb0-3cf3-4614-9704-8d2ea981d16a",
-    "time": "2024-07-27T07:06:48.525Z",
-    "temperature": 40,
+    "_id": "66a49d46cca9d40e81692484",
+    "id": "e1740071-8e72-4bdb-8fd3-b42809953876",
+    "time": "2024-07-27T07:09:58.849Z",
+    "temperature": 35,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49cb1cca9d40e81692408",
-    "id": "6981ed11-0d5a-4882-ad91-4b2fd3a3df2e",
-    "time": "2024-07-27T07:07:29.130Z",
-    "temperature": 38,
+    "_id": "66a49d4ccca9d40e81692488",
+    "id": "050ff1e2-6df5-4105-8d99-f6ee1047092b",
+    "time": "2024-07-27T07:10:04.381Z",
+    "temperature": 34,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49cbfcca9d40e81692416",
-    "id": "f9e3d732-86b9-4a37-8706-781d1a8b23a4",
-    "time": "2024-07-27T07:07:43.604Z",
-    "temperature": 40,
+    "_id": "66a49d50cca9d40e8169248a",
+    "id": "70b7a754-7780-41e6-b653-865be04bdad2",
+    "time": "2024-07-27T07:10:08.867Z",
+    "temperature": 34,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a49d5bcca9d40e81692492",
+    "id": "59f9699c-a0fd-488f-9f9c-322f65acbbf3",
+    "time": "2024-07-27T07:10:19.404Z",
+    "temperature": 34,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a49d67cca9d40e8169249a",
+    "id": "45779271-cfcc-4bcd-ac13-9a8f94371466",
+    "time": "2024-07-27T07:10:31.056Z",
+    "temperature": 31,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a49d6acca9d40e8169249c",
+    "id": "d5b79cd6-9460-487f-a997-6076bba81654",
+    "time": "2024-07-27T07:10:34.432Z",
+    "temperature": 35,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49cc9cca9d40e8169241e",
-    "id": "288ff791-e1b5-438b-9ef2-61897af0410e",
-    "time": "2024-07-27T07:07:53.617Z",
-    "temperature": 40,
+    "_id": "66a49d7dcca9d40e816924a8",
+    "id": "156a31f8-7191-458d-98f2-afa1073b105e",
+    "time": "2024-07-27T07:10:53.949Z",
+    "temperature": 31,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49ccfcca9d40e81692422",
-    "id": "5cd1cda3-b976-4d27-8140-0dffcd947119",
-    "time": "2024-07-27T07:07:59.159Z",
-    "temperature": 39,
+    "_id": "66a49d7ecca9d40e816924aa",
+    "id": "b7061b17-db12-4d7d-89e8-65c877202ead",
+    "time": "2024-07-27T07:10:54.468Z",
+    "temperature": 33,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a49d96cca9d40e816924ba",
+    "id": "6fc8dd57-91f9-4ae7-881c-8773aca915fe",
+    "time": "2024-07-27T07:11:18.986Z",
+    "temperature": 35,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49cd5cca9d40e81692428",
-    "id": "5d7e8c3a-686a-4e05-80d2-d4be957f330b",
-    "time": "2024-07-27T07:08:05.841Z",
-    "temperature": 37,
+    "_id": "66a49da1cca9d40e816924c2",
+    "id": "e1c79907-4cbe-4c50-8525-0f135aa3aa6b",
+    "time": "2024-07-27T07:11:29.000Z",
+    "temperature": 32,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a49db7cca9d40e816924d4",
+    "id": "2e41a0a5-b20a-4cd8-859d-56e815bcd478",
+    "time": "2024-07-27T07:11:51.217Z",
+    "temperature": 30,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49ceecca9d40e8169243a",
-    "id": "c1e20328-a8e2-4ccb-8f16-8d2e7c7fa22a",
-    "time": "2024-07-27T07:08:30.866Z",
-    "temperature": 37,
+    "_id": "66a49dc1cca9d40e816924da",
+    "id": "40bb3366-3425-43e6-b843-fdfdfd36184b",
+    "time": "2024-07-27T07:12:01.237Z",
+    "temperature": 34,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49cf2cca9d40e8169243e",
-    "id": "df700ffc-3694-4677-8f60-dce9edf2b7d5",
-    "time": "2024-07-27T07:08:34.235Z",
-    "temperature": 39,
-    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+    "_id": "66a49dc9cca9d40e816924dc",
+    "id": "7963db75-850b-4aa2-85c2-14ee83cd1806",
+    "time": "2024-07-27T07:12:09.076Z",
+    "temperature": 32,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a49dcbcca9d40e816924e0",
+    "id": "8cbcdc42-50ee-409b-8dd2-8d7ab687b28a",
+    "time": "2024-07-27T07:12:11.253Z",
+    "temperature": 31,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49d0bcca9d40e81692452",
-    "id": "4f22bab6-0576-45bd-8796-e280370b0abe",
-    "time": "2024-07-27T07:08:59.274Z",
-    "temperature": 40,
+    "_id": "66a49dd8cca9d40e816924ea",
+    "id": "398efa71-40bd-4c10-a808-83c279aac0af",
+    "time": "2024-07-27T07:12:24.610Z",
+    "temperature": 33,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a49ddacca9d40e816924ec",
+    "id": "9ee582b0-fe0a-4015-a194-7b1233e0b4ba",
+    "time": "2024-07-27T07:12:26.277Z",
+    "temperature": 34,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a49e00cca9d40e81692504",
+    "id": "887450ec-8118-411e-9c8a-fda27edc09d1",
+    "time": "2024-07-27T07:13:04.147Z",
+    "temperature": 31,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49d24cca9d40e81692464",
-    "id": "ca1d587f-be85-4505-b609-988627781f6e",
-    "time": "2024-07-27T07:09:24.309Z",
-    "temperature": 39,
+    "_id": "66a49e05cca9d40e8169250a",
+    "id": "74d4eb56-bdb0-45c0-9e3c-795113fc98b6",
+    "time": "2024-07-27T07:13:09.659Z",
+    "temperature": 32,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49d25cca9d40e81692466",
-    "id": "a5aea9fc-23fe-4275-9855-23ed630660b9",
-    "time": "2024-07-27T07:09:25.957Z",
-    "temperature": 37,
+    "_id": "66a49e07cca9d40e8169250c",
+    "id": "f006333a-865b-460b-9f7a-e0a0b75377b3",
+    "time": "2024-07-27T07:13:11.369Z",
+    "temperature": 32,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49d44cca9d40e81692482",
-    "id": "8c6b17ef-7752-4ea2-962c-4f9f4dc3f54f",
-    "time": "2024-07-27T07:09:55.996Z",
-    "temperature": 39,
+    "_id": "66a49e1bcca9d40e8169251c",
+    "id": "ba3ff3d4-71fb-4810-86f4-4e2c30bd8dfb",
+    "time": "2024-07-27T07:13:31.407Z",
+    "temperature": 35,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a49e1ecca9d40e8169251e",
+    "id": "8459c907-4680-496a-9edb-1eb2f1004096",
+    "time": "2024-07-27T07:13:34.185Z",
+    "temperature": 32,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a49e23cca9d40e81692520",
+    "id": "fc3c57c4-c401-421a-a1b6-9bd4a2cdf301",
+    "time": "2024-07-27T07:13:39.185Z",
+    "temperature": 32,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49d83cca9d40e816924ae",
-    "id": "1ad32066-60a4-4042-a147-2cca1f78d3b7",
-    "time": "2024-07-27T07:10:59.476Z",
-    "temperature": 37,
+    "_id": "66a49e3ccca9d40e81692536",
+    "id": "8b72cd10-ee10-4016-9a70-23e97cb38358",
+    "time": "2024-07-27T07:14:04.218Z",
+    "temperature": 30,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a49e41cca9d40e8169253a",
+    "id": "efbe2e40-d4ee-43a2-b9fd-db1ef875bc11",
+    "time": "2024-07-27T07:14:09.769Z",
+    "temperature": 35,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49d8acca9d40e816924b2",
-    "id": "a37f2542-990f-460c-94ca-d7fdef23d114",
-    "time": "2024-07-27T07:11:06.125Z",
-    "temperature": 38,
-    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+    "_id": "66a49e4bcca9d40e8169253e",
+    "id": "5a0e4b47-9c35-4091-9d09-18258082147d",
+    "time": "2024-07-27T07:14:19.248Z",
+    "temperature": 35,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49db5cca9d40e816924d0",
-    "id": "06737377-4e65-40cd-9b57-ce22860fc6e6",
-    "time": "2024-07-27T07:11:49.037Z",
-    "temperature": 40,
+    "_id": "66a49e55cca9d40e81692544",
+    "id": "dc191583-80a7-456a-ab12-ec6c0d7d4a19",
+    "time": "2024-07-27T07:14:29.256Z",
+    "temperature": 31,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49de4cca9d40e816924f2",
-    "id": "120b3d0c-fa6e-46bf-b935-786ad3fbec34",
-    "time": "2024-07-27T07:12:36.306Z",
-    "temperature": 38,
+    "_id": "66a49e6bcca9d40e81692556",
+    "id": "67852185-4975-4c14-8609-c1f193f6e66c",
+    "time": "2024-07-27T07:14:51.545Z",
+    "temperature": 32,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49df1cca9d40e816924fc",
-    "id": "51ea1e76-73a0-4c8f-9d32-a5620f0a1f4e",
-    "time": "2024-07-27T07:12:49.133Z",
-    "temperature": 40,
+    "_id": "66a49e6ecca9d40e81692558",
+    "id": "ce5825ca-2f1a-418d-8591-540dec16679b",
+    "time": "2024-07-27T07:14:54.298Z",
+    "temperature": 33,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49e0acca9d40e8169250e",
-    "id": "adb715d6-b48b-4963-af53-386525d36d11",
-    "time": "2024-07-27T07:13:14.172Z",
-    "temperature": 40,
-    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+    "_id": "66a49e75cca9d40e8169255e",
+    "id": "013f003c-05cc-4cfe-a7b4-79a68f8ddb93",
+    "time": "2024-07-27T07:15:01.564Z",
+    "temperature": 35,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49e11cca9d40e81692514",
-    "id": "c96d0b19-e730-437e-b4a7-e4c19963122f",
-    "time": "2024-07-27T07:13:21.390Z",
-    "temperature": 38,
+    "_id": "66a49e8ecca9d40e81692570",
+    "id": "359b8594-9e30-4e2b-816a-559a3ce201a6",
+    "time": "2024-07-27T07:15:26.616Z",
+    "temperature": 30,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49e25cca9d40e81692524",
-    "id": "ed870971-a0de-4cda-8369-6b83e3279746",
-    "time": "2024-07-27T07:13:41.430Z",
-    "temperature": 39,
+    "_id": "66a49ea2cca9d40e8169257c",
+    "id": "4b23cbeb-d6fe-4f0c-b17f-e38294724a31",
+    "time": "2024-07-27T07:15:46.665Z",
+    "temperature": 30,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49e28cca9d40e81692526",
-    "id": "df275127-4878-4672-9bcd-75f83e0fa4d1",
-    "time": "2024-07-27T07:13:44.191Z",
-    "temperature": 37,
+    "_id": "66a49ea5cca9d40e8169257e",
+    "id": "f1dc4725-8108-4c38-92e2-db57bafabae4",
+    "time": "2024-07-27T07:15:49.977Z",
+    "temperature": 34,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a49eb4cca9d40e81692588",
+    "id": "87a4e185-da5b-4728-b508-a64fd5bc6517",
+    "time": "2024-07-27T07:16:04.423Z",
+    "temperature": 35,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49e39cca9d40e81692534",
-    "id": "f32ad543-190e-43ab-a1f1-3af133774e1d",
-    "time": "2024-07-27T07:14:01.458Z",
-    "temperature": 38,
+    "_id": "66a49ec5cca9d40e81692598",
+    "id": "f7f5f97c-7ade-4d9e-a9b3-29b12cb35e3a",
+    "time": "2024-07-27T07:16:21.736Z",
+    "temperature": 31,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a49ecfcca9d40e8169259e",
+    "id": "8652bfd1-3959-4c4b-9e1e-eb078f94b42d",
+    "time": "2024-07-27T07:16:31.752Z",
+    "temperature": 31,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a49eddcca9d40e816925a8",
+    "id": "20204ca2-f5b7-4641-b42d-babc6d32997f",
+    "time": "2024-07-27T07:16:45.046Z",
+    "temperature": 31,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49e64cca9d40e81692552",
-    "id": "7dd8e788-70de-43b2-90cc-a218dd5a77db",
-    "time": "2024-07-27T07:14:44.280Z",
-    "temperature": 40,
+    "_id": "66a49ee1cca9d40e816925ac",
+    "id": "a8af3e41-c957-499a-9ad3-3e19ba0d617f",
+    "time": "2024-07-27T07:16:49.483Z",
+    "temperature": 35,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a49eedcca9d40e816925b8",
+    "id": "5a4bb694-0f15-4634-a1ee-dbb74226597c",
+    "time": "2024-07-27T07:17:01.794Z",
+    "temperature": 34,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a49efccca9d40e816925c4",
+    "id": "182440ec-feba-4477-8afe-167c0e5250c3",
+    "time": "2024-07-27T07:17:16.823Z",
+    "temperature": 31,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a49f0acca9d40e816925ce",
+    "id": "2dbd55d9-bbc2-46f8-af91-71c4f993e111",
+    "time": "2024-07-27T07:17:30.102Z",
+    "temperature": 34,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49e82cca9d40e81692566",
-    "id": "59d9c1c8-1c98-442d-94b2-9d7c78e41861",
-    "time": "2024-07-27T07:15:14.337Z",
-    "temperature": 37,
+    "_id": "66a49f13cca9d40e816925d6",
+    "id": "c5833d2b-3af3-4c58-8ef5-15a758070bbe",
+    "time": "2024-07-27T07:17:39.569Z",
+    "temperature": 30,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49e8ccca9d40e8169256c",
-    "id": "4164d529-e889-46ce-8142-429047eaa98e",
-    "time": "2024-07-27T07:15:24.350Z",
-    "temperature": 40,
+    "_id": "66a49f18cca9d40e816925dc",
+    "id": "a4a73e65-71d4-4363-ae57-a43690aba1fb",
+    "time": "2024-07-27T07:17:44.574Z",
+    "temperature": 34,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49e98cca9d40e81692576",
-    "id": "9fa0a0b2-6da7-4a46-8a1f-583cfbdc2cde",
-    "time": "2024-07-27T07:15:36.640Z",
-    "temperature": 40,
+    "_id": "66a49f1acca9d40e816925e0",
+    "id": "c62ea748-5da4-4cc6-b5fe-66a0edf66b86",
+    "time": "2024-07-27T07:17:46.840Z",
+    "temperature": 35,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49ea0cca9d40e81692578",
-    "id": "0603ead0-2d24-4d7d-8dd8-1af987a344a9",
-    "time": "2024-07-27T07:15:44.390Z",
-    "temperature": 39,
+    "_id": "66a49f22cca9d40e816925e6",
+    "id": "24ee2000-4e13-4e92-bd72-1afb91a946ef",
+    "time": "2024-07-27T07:17:54.583Z",
+    "temperature": 31,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a49f41cca9d40e81692600",
+    "id": "7ee6455e-09ad-4159-ba64-8ddcdfba6581",
+    "time": "2024-07-27T07:18:25.211Z",
+    "temperature": 31,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49eaacca9d40e81692584",
-    "id": "0b4cccdd-4b5a-4853-a9ff-19a22d58c5a9",
-    "time": "2024-07-27T07:15:54.985Z",
-    "temperature": 40,
+    "_id": "66a49f5fcca9d40e81692612",
+    "id": "08e164ad-cf96-40a0-b57f-4a6d15f3c77d",
+    "time": "2024-07-27T07:18:55.286Z",
+    "temperature": 35,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49ec3cca9d40e81692594",
-    "id": "61ea518c-4c6c-4aca-a378-9155b9500b42",
-    "time": "2024-07-27T07:16:19.431Z",
-    "temperature": 37,
+    "_id": "66a49f70cca9d40e8169261c",
+    "id": "9b0c7620-08c5-4749-b325-bc514608cd2f",
+    "time": "2024-07-27T07:19:12.005Z",
+    "temperature": 33,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a49f72cca9d40e8169261e",
+    "id": "087a31a2-dd4d-423a-8082-cce637198d18",
+    "time": "2024-07-27T07:19:14.735Z",
+    "temperature": 31,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49ec4cca9d40e81692596",
-    "id": "533b0d58-8574-4321-b5eb-e4dc3dbc52bf",
-    "time": "2024-07-27T07:16:20.025Z",
-    "temperature": 40,
+    "_id": "66a49f7fcca9d40e81692628",
+    "id": "7886d1fd-4e09-4bc3-b60c-eb0c9ac13bc7",
+    "time": "2024-07-27T07:19:27.030Z",
+    "temperature": 31,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a49fa5cca9d40e81692642",
+    "id": "63973e1b-9cbb-4242-92d7-ae5f45d8c557",
+    "time": "2024-07-27T07:20:05.448Z",
+    "temperature": 32,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a49fa7cca9d40e81692644",
+    "id": "4cd77f71-0df9-4e11-966b-c6261b9b5b2d",
+    "time": "2024-07-27T07:20:07.100Z",
+    "temperature": 30,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a49fa9cca9d40e81692646",
+    "id": "e21eae16-836f-4cea-8311-e6d7b3951a4b",
+    "time": "2024-07-27T07:20:09.818Z",
+    "temperature": 30,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49ef5cca9d40e816925be",
-    "id": "c41ea7d8-d1b1-44a1-bba4-71ec1ccb9adf",
-    "time": "2024-07-27T07:17:09.534Z",
-    "temperature": 40,
+    "_id": "66a49fc7cca9d40e81692658",
+    "id": "76945545-43f8-45ad-aad6-174ebe66c694",
+    "time": "2024-07-27T07:20:39.864Z",
+    "temperature": 34,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49f0ecca9d40e816925d2",
-    "id": "fbe62547-ab72-4714-a414-663d22b2bf2e",
-    "time": "2024-07-27T07:17:34.565Z",
-    "temperature": 40,
+    "_id": "66a49fefcca9d40e81692674",
+    "id": "9e49c59b-58af-466f-955e-5478a0ef0e32",
+    "time": "2024-07-27T07:21:19.941Z",
+    "temperature": 34,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49f14cca9d40e816925d8",
-    "id": "a9b109d3-c0cf-4eb8-aaeb-74a78c014d2f",
-    "time": "2024-07-27T07:17:40.133Z",
-    "temperature": 39,
+    "_id": "66a49ffacca9d40e81692680",
+    "id": "550561e3-b9ff-40b9-ab50-685035d8e9b4",
+    "time": "2024-07-27T07:21:30.581Z",
+    "temperature": 32,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a4a003cca9d40e81692686",
+    "id": "2c804b38-1c18-471e-afdf-aa5c39bf15e7",
+    "time": "2024-07-27T07:21:39.980Z",
+    "temperature": 30,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a4a012cca9d40e81692692",
+    "id": "ae28fe7c-fcad-4b27-814b-cee52520cd4e",
+    "time": "2024-07-27T07:21:54.995Z",
+    "temperature": 30,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a4a027cca9d40e816926a2",
+    "id": "435b6f1a-1ebf-4ca0-a2cf-e34228ac96f9",
+    "time": "2024-07-27T07:22:15.040Z",
+    "temperature": 33,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49f15cca9d40e816925da",
-    "id": "14e4449c-44a4-43a3-b115-bece2c52f7bc",
-    "time": "2024-07-27T07:17:41.838Z",
-    "temperature": 38,
+    "_id": "66a4a029cca9d40e816926a6",
+    "id": "2247f5b3-47ba-4fb0-8d9e-4a6e60324689",
+    "time": "2024-07-27T07:22:17.288Z",
+    "temperature": 34,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a4a045cca9d40e816926b4",
+    "id": "8c3fb73a-1c69-4507-9936-05d19b281223",
+    "time": "2024-07-27T07:22:45.089Z",
+    "temperature": 33,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a4a05ecca9d40e816926c8",
+    "id": "173b904c-3456-4f76-98ed-123435f56bee",
+    "time": "2024-07-27T07:23:10.710Z",
+    "temperature": 32,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49f1ecca9d40e816925e2",
-    "id": "b4159ec4-d35d-4459-bb67-7339d5719d50",
-    "time": "2024-07-27T07:17:50.147Z",
-    "temperature": 39,
+    "_id": "66a4a063cca9d40e816926ce",
+    "id": "9071782b-88cf-49f6-8f0c-0ad46590083c",
+    "time": "2024-07-27T07:23:15.711Z",
+    "temperature": 31,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49f1fcca9d40e816925e4",
-    "id": "a5895df2-509a-44e1-81ff-be7ba56c72c4",
-    "time": "2024-07-27T07:17:51.843Z",
-    "temperature": 38,
+    "_id": "66a4a074cca9d40e816926d8",
+    "id": "ed2c2a6a-e226-49a1-b0fa-24385bc66aa3",
+    "time": "2024-07-27T07:23:32.433Z",
+    "temperature": 31,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49f38cca9d40e816925f6",
-    "id": "4dbbd96d-c7a9-47bc-89ce-3e576d36056c",
-    "time": "2024-07-27T07:18:16.886Z",
-    "temperature": 40,
+    "_id": "66a4a07ecca9d40e816926de",
+    "id": "cc81e1ae-edb2-4422-ab70-fbc9f2668997",
+    "time": "2024-07-27T07:23:42.459Z",
+    "temperature": 33,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49f3ccca9d40e816925fa",
-    "id": "e2a87d3f-0444-4913-868f-273da1f5deb5",
-    "time": "2024-07-27T07:18:20.208Z",
-    "temperature": 39,
+    "_id": "66a4a092cca9d40e816926f0",
+    "id": "9af58d5e-5be0-41e5-80a7-ea2f67cda041",
+    "time": "2024-07-27T07:24:02.491Z",
+    "temperature": 32,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a4a09fcca9d40e816926f8",
+    "id": "dff3e220-d137-4588-be62-04225018e9c1",
+    "time": "2024-07-27T07:24:15.828Z",
+    "temperature": 32,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49f4acca9d40e81692604",
-    "id": "80c1388d-2caf-411e-ad96-58c29fa93baa",
-    "time": "2024-07-27T07:18:34.646Z",
-    "temperature": 38,
+    "_id": "66a4a0a4cca9d40e816926fc",
+    "id": "3a0be950-1370-4ab8-abca-35387c3348dd",
+    "time": "2024-07-27T07:24:20.241Z",
+    "temperature": 35,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a49f4bcca9d40e81692606",
-    "id": "09ba5111-50dd-407e-b82a-489de427c2b2",
-    "time": "2024-07-27T07:18:35.234Z",
-    "temperature": 38,
-    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+    "_id": "66a4a0b5cca9d40e8169270a",
+    "id": "2a9d01fb-da5f-4b16-9d62-977616d3a202",
+    "time": "2024-07-27T07:24:37.526Z",
+    "temperature": 32,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49f56cca9d40e8169260e",
-    "id": "efbc3a21-a121-4a20-bfcd-562a7d35d5cc",
-    "time": "2024-07-27T07:18:46.955Z",
-    "temperature": 40,
+    "_id": "66a4a0bacca9d40e8169270e",
+    "id": "cea70238-faf9-483d-b722-37459551182e",
+    "time": "2024-07-27T07:24:42.529Z",
+    "temperature": 33,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49f68cca9d40e81692616",
-    "id": "7d0256d0-4d68-4e85-875f-ea2ce32adefa",
-    "time": "2024-07-27T07:19:04.718Z",
-    "temperature": 37,
-    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+    "_id": "66a4a0bfcca9d40e81692712",
+    "id": "b0cc1b39-f0c0-4f1b-9b4d-eeff840c76a0",
+    "time": "2024-07-27T07:24:47.531Z",
+    "temperature": 33,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49fb1cca9d40e8169264a",
-    "id": "1c6d9dd3-ef34-4ad3-8e27-7f479e242f98",
-    "time": "2024-07-27T07:20:17.111Z",
-    "temperature": 37,
+    "_id": "66a4a0c7cca9d40e8169271a",
+    "id": "58ffc939-da83-4d89-99e4-cda390649d7e",
+    "time": "2024-07-27T07:24:55.905Z",
+    "temperature": 32,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a4a0cecca9d40e8169271e",
+    "id": "b71207bf-16ca-4ac7-b604-f56fe2d7a9d0",
+    "time": "2024-07-27T07:25:02.551Z",
+    "temperature": 35,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a49fe1cca9d40e8169266c",
-    "id": "05ce47dd-f787-4c09-9f36-51a27eebda95",
-    "time": "2024-07-27T07:21:05.551Z",
-    "temperature": 40,
+    "_id": "66a4a0d1cca9d40e81692722",
+    "id": "906bdf3f-01ff-46ae-a506-307ee0320f6c",
+    "time": "2024-07-27T07:25:05.915Z",
+    "temperature": 31,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a49ff2cca9d40e81692678",
-    "id": "6b2fcefb-c2c7-45af-8ce1-41c9f5e497af",
-    "time": "2024-07-27T07:21:22.211Z",
-    "temperature": 40,
-    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+    "_id": "66a4a0e5cca9d40e8169272c",
+    "id": "64fa4c1d-d35b-464f-a638-1b5ff4b33d65",
+    "time": "2024-07-27T07:25:25.330Z",
+    "temperature": 31,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a4a00bcca9d40e8169268c",
-    "id": "d962ef04-5588-4ce4-a6db-e90b131239c1",
-    "time": "2024-07-27T07:21:47.248Z",
-    "temperature": 37,
-    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+    "_id": "66a4a0efcca9d40e81692736",
+    "id": "856f9e71-9328-4879-8879-b858440afd27",
+    "time": "2024-07-27T07:25:35.354Z",
+    "temperature": 33,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a4a013cca9d40e81692694",
-    "id": "9753a273-007a-4a87-8c2b-6664aad3572f",
-    "time": "2024-07-27T07:21:55.607Z",
-    "temperature": 39,
+    "_id": "66a4a103cca9d40e81692744",
+    "id": "58fdc309-b763-43e8-9277-15e101a26919",
+    "time": "2024-07-27T07:25:55.982Z",
+    "temperature": 31,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a4a027cca9d40e816926a4",
-    "id": "01190489-a8e6-4d82-8909-38cf8d2d8b48",
-    "time": "2024-07-27T07:22:15.628Z",
-    "temperature": 37,
+    "_id": "66a4a108cca9d40e8169274a",
+    "id": "1e4cce4c-980b-4d9e-b652-fdec81e8c628",
+    "time": "2024-07-27T07:26:00.984Z",
+    "temperature": 32,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a4a03bcca9d40e816926ae",
-    "id": "619fa627-2ca8-4f2f-bcda-a5a89e98345c",
-    "time": "2024-07-27T07:22:35.076Z",
-    "temperature": 40,
+    "_id": "66a4a117cca9d40e81692756",
+    "id": "22efa920-ecaf-40e0-88da-0036f914fbcd",
+    "time": "2024-07-27T07:26:15.414Z",
+    "temperature": 33,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a4a03bcca9d40e816926b0",
-    "id": "475d42a2-40a5-4b72-8ef2-2f036e819882",
-    "time": "2024-07-27T07:22:35.660Z",
-    "temperature": 40,
+    "_id": "66a4a118cca9d40e81692758",
+    "id": "6c9295be-604b-422b-b30f-8a1b3bd349bf",
+    "time": "2024-07-27T07:26:16.010Z",
+    "temperature": 31,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a4a051cca9d40e816926be",
-    "id": "0cd9df93-2531-4d34-b6c0-5177cd31209a",
-    "time": "2024-07-27T07:22:57.368Z",
-    "temperature": 38,
+    "_id": "66a4a121cca9d40e8169275c",
+    "id": "24acaab5-2040-46f9-9b52-0d86900a1301",
+    "time": "2024-07-27T07:26:25.430Z",
+    "temperature": 34,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a4a12bcca9d40e81692764",
+    "id": "cbc29bcb-8ace-49dc-bce7-9f678ffaf680",
+    "time": "2024-07-27T07:26:35.461Z",
+    "temperature": 32,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a4a13ccca9d40e81692770",
+    "id": "b216b93a-6e8f-401e-9a25-43d54f52740f",
+    "time": "2024-07-27T07:26:52.732Z",
+    "temperature": 35,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a4a068cca9d40e816926d0",
-    "id": "4135e9e8-b125-4d93-8b96-a70f8deb57eb",
-    "time": "2024-07-27T07:23:20.136Z",
-    "temperature": 40,
+    "_id": "66a4a149cca9d40e8169277c",
+    "id": "ca37daa1-bcbf-4209-ac93-e0c12c4719fa",
+    "time": "2024-07-27T07:27:05.507Z",
+    "temperature": 33,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a4a081cca9d40e816926e2",
-    "id": "97c94911-8257-4ae4-8a6b-d8b7ed5a5e8d",
-    "time": "2024-07-27T07:23:45.768Z",
-    "temperature": 39,
+    "_id": "66a4a14fcca9d40e8169277e",
+    "id": "0e209d6c-f305-4004-b5e1-c3515f6d722f",
+    "time": "2024-07-27T07:27:11.086Z",
+    "temperature": 32,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a4a08bcca9d40e816926e6",
-    "id": "a7f05fd6-6ffc-4b77-909e-24958387d557",
-    "time": "2024-07-27T07:23:55.202Z",
-    "temperature": 39,
+    "_id": "66a4a15dcca9d40e81692788",
+    "id": "7f2922e9-c8cb-474e-82e0-c6e9f8b6d79d",
+    "time": "2024-07-27T07:27:25.551Z",
+    "temperature": 30,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a4a15ecca9d40e8169278a",
+    "id": "552ccebf-a025-4675-9a70-e5fdbb1769c7",
+    "time": "2024-07-27T07:27:26.114Z",
+    "temperature": 35,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a4a178cca9d40e8169279c",
+    "id": "f2e05023-4af4-48c0-b579-3abca01f7ef3",
+    "time": "2024-07-27T07:27:52.846Z",
+    "temperature": 30,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a4a17ccca9d40e816927a0",
+    "id": "f43a6eea-bfba-40f1-b68f-c6646c6c8f7e",
+    "time": "2024-07-27T07:27:56.166Z",
+    "temperature": 33,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a4a090cca9d40e816926ec",
-    "id": "8ec1a295-1543-44c4-8325-058cc5b4068d",
-    "time": "2024-07-27T07:24:00.207Z",
-    "temperature": 40,
+    "_id": "66a4a194cca9d40e816927b0",
+    "id": "a13432d9-341d-4f5d-b3ca-ddba7c5f3169",
+    "time": "2024-07-27T07:28:20.644Z",
+    "temperature": 34,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a4a195cca9d40e816927b2",
+    "id": "4a4ef9ae-f230-40ab-876e-55ca1f45e87e",
+    "time": "2024-07-27T07:28:21.208Z",
+    "temperature": 35,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a4a19bcca9d40e816927b8",
+    "id": "c4cccee1-a5de-459a-9807-a14b55255a4f",
+    "time": "2024-07-27T07:28:27.909Z",
+    "temperature": 32,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a4a19fcca9d40e816927bc",
+    "id": "0af1417a-49ea-4897-acae-9c4f94606a7f",
+    "time": "2024-07-27T07:28:31.233Z",
+    "temperature": 34,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a4a1afcca9d40e816927c6",
+    "id": "e1834fbf-9012-4603-8402-44aaad7055dd",
+    "time": "2024-07-27T07:28:47.952Z",
+    "temperature": 33,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a4a1b3cca9d40e816927ca",
+    "id": "2be90683-a6c6-4d9d-b27e-473af0a6db81",
+    "time": "2024-07-27T07:28:51.268Z",
+    "temperature": 34,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a4a1b9cca9d40e816927cc",
+    "id": "3a94773b-c5d2-42cd-b8fa-20d71460e911",
+    "time": "2024-07-27T07:28:57.966Z",
+    "temperature": 32,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a4a0b0cca9d40e81692706",
-    "id": "0684ee70-3f38-47fe-a714-cd0a0cd654d2",
-    "time": "2024-07-27T07:24:32.525Z",
-    "temperature": 39,
+    "_id": "66a4a1c3cca9d40e816927d4",
+    "id": "78737461-c446-4c7c-9730-7c8b6eaa0119",
+    "time": "2024-07-27T07:29:07.986Z",
+    "temperature": 32,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a4a0b3cca9d40e81692708",
-    "id": "b8e5ba78-ade9-4ba8-908d-debd6e5a1358",
-    "time": "2024-07-27T07:24:35.870Z",
-    "temperature": 40,
+    "_id": "66a4a1d6cca9d40e816927e4",
+    "id": "5bc3c91e-2162-4a42-8252-9091a541c867",
+    "time": "2024-07-27T07:29:26.333Z",
+    "temperature": 35,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a4a0c4cca9d40e81692716",
-    "id": "0e46d1b3-05a7-46a4-a140-0d9b07d74903",
-    "time": "2024-07-27T07:24:52.536Z",
-    "temperature": 40,
+    "_id": "66a4a1eccca9d40e816927f4",
+    "id": "99d8c5bb-fb7f-4d8b-a34b-2a693e8b8ccc",
+    "time": "2024-07-27T07:29:48.054Z",
+    "temperature": 35,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a4a1eecca9d40e816927f6",
+    "id": "66fbec57-036e-452b-a3e5-8c01aab8e2e1",
+    "time": "2024-07-27T07:29:50.799Z",
+    "temperature": 31,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a4a0c7cca9d40e81692718",
-    "id": "47725183-b100-4d57-97a9-f65061a050b2",
-    "time": "2024-07-27T07:24:55.294Z",
-    "temperature": 38,
+    "_id": "66a4a1fdcca9d40e81692806",
+    "id": "688bdc7b-8afa-436e-9bd2-e19f21525de7",
+    "time": "2024-07-27T07:30:05.812Z",
+    "temperature": 31,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a4a0cccca9d40e8169271c",
-    "id": "da499757-4478-456c-910e-24d460e7132e",
-    "time": "2024-07-27T07:25:00.296Z",
-    "temperature": 37,
+    "_id": "66a4a211cca9d40e81692818",
+    "id": "00eef8b9-f4f3-4aab-ab0a-591dbf0cbc2c",
+    "time": "2024-07-27T07:30:25.840Z",
+    "temperature": 32,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a4a0fbcca9d40e8169273e",
-    "id": "b41adfc4-3a2f-4b43-a14b-4a7fdc28c759",
-    "time": "2024-07-27T07:25:47.627Z",
-    "temperature": 37,
+    "_id": "66a4a214cca9d40e8169281c",
+    "id": "a132e3e8-35aa-4df3-a4a2-80e394caf57d",
+    "time": "2024-07-27T07:30:28.117Z",
+    "temperature": 32,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a4a112cca9d40e81692752",
-    "id": "80042361-f869-4b02-b05d-4770f243d2d9",
-    "time": "2024-07-27T07:26:10.412Z",
-    "temperature": 40,
+    "_id": "66a4a225cca9d40e81692824",
+    "id": "b616df47-cff5-48d4-b829-fa85ffb66b26",
+    "time": "2024-07-27T07:30:45.877Z",
+    "temperature": 34,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a4a122cca9d40e8169275e",
-    "id": "9d1d5501-927c-422f-b010-3fbd713732cb",
-    "time": "2024-07-27T07:26:26.022Z",
-    "temperature": 37,
-    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+    "_id": "66a4a228cca9d40e81692828",
+    "id": "a0e48205-6ef1-4fd2-b461-aaf8b8b42aa8",
+    "time": "2024-07-27T07:30:48.167Z",
+    "temperature": 33,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a4a132cca9d40e8169276a",
-    "id": "1f2cca75-1bb7-46b2-963b-388f0d2d1c9f",
-    "time": "2024-07-27T07:26:42.721Z",
-    "temperature": 40,
+    "_id": "66a4a22dcca9d40e8169282a",
+    "id": "2836cc8c-90ad-45b1-863f-cbef6c50d7ad",
+    "time": "2024-07-27T07:30:53.171Z",
+    "temperature": 32,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a4a135cca9d40e8169276c",
-    "id": "f11117b1-0805-48ca-a855-cb01457d2b73",
-    "time": "2024-07-27T07:26:45.465Z",
-    "temperature": 38,
-    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+    "_id": "66a4a235cca9d40e81692832",
+    "id": "a240da54-7d17-4ae2-8082-f7f2c77c0e2b",
+    "time": "2024-07-27T07:31:01.502Z",
+    "temperature": 35,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a4a13fcca9d40e81692772",
-    "id": "846f7254-5540-4cac-aa7e-341cb062623e",
-    "time": "2024-07-27T07:26:55.491Z",
-    "temperature": 40,
+    "_id": "66a4a257cca9d40e8169284c",
+    "id": "c816cff5-4462-4e49-b05a-fc94415911ad",
+    "time": "2024-07-27T07:31:35.989Z",
+    "temperature": 30,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a4a159cca9d40e81692784",
-    "id": "2f4aeee3-f942-433a-86b4-fdf9f971d4ed",
-    "time": "2024-07-27T07:27:21.111Z",
-    "temperature": 40,
-    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+    "_id": "66a4a25fcca9d40e81692852",
+    "id": "805f1d51-831d-43e1-b550-23979e1e986c",
+    "time": "2024-07-27T07:31:43.258Z",
+    "temperature": 32,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a4a163cca9d40e8169278c",
-    "id": "2e869c73-0d60-4aee-a74f-10088afe5b05",
-    "time": "2024-07-27T07:27:31.114Z",
-    "temperature": 40,
+    "_id": "66a4a267cca9d40e8169285c",
+    "id": "ac2f1fed-0c88-47ae-a318-09ff8ea387ed",
+    "time": "2024-07-27T07:31:51.579Z",
+    "temperature": 34,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a4a16dcca9d40e81692794",
-    "id": "38ba7615-67e9-48f2-bdbd-cacaa60cda3f",
-    "time": "2024-07-27T07:27:41.140Z",
-    "temperature": 37,
+    "_id": "66a4a282cca9d40e81692870",
+    "id": "cc048b77-8941-48a8-88a4-548bde95f350",
+    "time": "2024-07-27T07:32:18.322Z",
+    "temperature": 30,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a4a285cca9d40e81692872",
+    "id": "0ae7cdae-c463-45d6-9878-ce72d37378a3",
+    "time": "2024-07-27T07:32:21.637Z",
+    "temperature": 31,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a4a16ecca9d40e81692796",
-    "id": "9e13e884-8d3f-4a3c-a22d-22d4830bc526",
-    "time": "2024-07-27T07:27:42.828Z",
-    "temperature": 39,
+    "_id": "66a4a28ccca9d40e8169287a",
+    "id": "500f85bd-0148-41a7-b601-e351c0ae4429",
+    "time": "2024-07-27T07:32:28.326Z",
+    "temperature": 34,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a4a1a8cca9d40e816927c0",
-    "id": "29ca35dd-5dd9-4ef4-b1b0-df794f075746",
-    "time": "2024-07-27T07:28:40.676Z",
-    "temperature": 40,
-    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+    "_id": "66a4a294cca9d40e81692880",
+    "id": "03187ed8-b1ce-4b3c-8632-11bd2544ed00",
+    "time": "2024-07-27T07:32:36.663Z",
+    "temperature": 31,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a4a29ecca9d40e81692888",
+    "id": "4fd2c4bb-5c78-4507-94df-1083e8185ce1",
+    "time": "2024-07-27T07:32:46.673Z",
+    "temperature": 32,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a4a1c6cca9d40e816927d6",
-    "id": "2c78fc25-eff2-4f07-839b-4d1b51b1af5a",
-    "time": "2024-07-27T07:29:10.725Z",
-    "temperature": 37,
+    "_id": "66a4a2a8cca9d40e81692892",
+    "id": "e0647ea4-5225-4381-a3dc-ef66926f3d49",
+    "time": "2024-07-27T07:32:56.105Z",
+    "temperature": 35,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a4a1d8cca9d40e816927e6",
-    "id": "fd8b75f8-533c-44ce-bcf6-b174e0e8fa55",
-    "time": "2024-07-27T07:29:28.020Z",
-    "temperature": 40,
-    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+    "_id": "66a4a2b2cca9d40e8169289a",
+    "id": "95af562d-aaf3-41ac-a16a-f381d2e41133",
+    "time": "2024-07-27T07:33:06.694Z",
+    "temperature": 35,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a4a1dfcca9d40e816927ea",
-    "id": "c0361c34-9f34-4ecf-a2ff-18ab69605173",
-    "time": "2024-07-27T07:29:35.771Z",
-    "temperature": 40,
+    "_id": "66a4a2b7cca9d40e8169289e",
+    "id": "b0f47794-426b-4820-b765-19ff7fe7409a",
+    "time": "2024-07-27T07:33:11.128Z",
+    "temperature": 32,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a4a1efcca9d40e816927f8",
-    "id": "88f7b304-f1d8-457f-ba5f-6f5eb4936d93",
-    "time": "2024-07-27T07:29:51.379Z",
-    "temperature": 38,
+    "_id": "66a4a2bccca9d40e816928a2",
+    "id": "51796d28-4dff-4bab-845a-83f8d6d6b19e",
+    "time": "2024-07-27T07:33:16.132Z",
+    "temperature": 34,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a4a2bccca9d40e816928a4",
+    "id": "2e9c11df-e3b1-441e-8fa4-3ebc4478c1e8",
+    "time": "2024-07-27T07:33:16.694Z",
+    "temperature": 35,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a4a21bcca9d40e8169281e",
-    "id": "7530301c-ead4-4780-95a3-6baa252b4bd7",
-    "time": "2024-07-27T07:30:35.861Z",
-    "temperature": 37,
+    "_id": "66a4a2cbcca9d40e816928ae",
+    "id": "9f2761b6-34a4-43a7-907b-a02447b6f14a",
+    "time": "2024-07-27T07:33:31.170Z",
+    "temperature": 35,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a4a230cca9d40e8169282e",
-    "id": "a15b3788-71ab-42a8-b19f-bcca47d6354e",
-    "time": "2024-07-27T07:30:56.495Z",
-    "temperature": 38,
-    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+    "_id": "66a4a2dfcca9d40e816928be",
+    "id": "59e36ed8-775b-49a3-b162-03f6b9f645bc",
+    "time": "2024-07-27T07:33:51.203Z",
+    "temperature": 35,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a4a262cca9d40e81692856",
-    "id": "4975317a-528d-4861-a4ab-aedd109ac2ac",
-    "time": "2024-07-27T07:31:46.576Z",
-    "temperature": 38,
-    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+    "_id": "66a4a2e1cca9d40e816928c2",
+    "id": "119cbdce-17ed-4e6c-9079-751d7655d120",
+    "time": "2024-07-27T07:33:53.459Z",
+    "temperature": 35,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a4a276cca9d40e81692866",
-    "id": "59e4359c-f0a8-4e10-97b4-88310b0f037b",
-    "time": "2024-07-27T07:32:06.027Z",
-    "temperature": 38,
+    "_id": "66a4a2e6cca9d40e816928c6",
+    "id": "36833f2a-3da3-4f9a-b5d5-ffb176a462a6",
+    "time": "2024-07-27T07:33:58.472Z",
+    "temperature": 35,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a4a2e9cca9d40e816928c8",
+    "id": "efe4b201-1525-4a85-97d8-747df3b8a7fc",
+    "time": "2024-07-27T07:34:01.208Z",
+    "temperature": 33,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a4a2cbcca9d40e816928b0",
-    "id": "6dff4666-e93f-4073-a895-e2bdd070ae45",
-    "time": "2024-07-27T07:33:31.720Z",
-    "temperature": 38,
+    "_id": "66a4a2fdcca9d40e816928da",
+    "id": "b094cbc4-1f75-44f9-88b8-73d39cc07d54",
+    "time": "2024-07-27T07:34:21.831Z",
+    "temperature": 32,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a4a2d7cca9d40e816928b8",
-    "id": "2c58d5bf-4663-4986-bd90-54730b2815ef",
-    "time": "2024-07-27T07:33:43.438Z",
-    "temperature": 39,
+    "_id": "66a4a2ffcca9d40e816928dc",
+    "id": "633e4554-b924-4086-aaa7-903786b65279",
+    "time": "2024-07-27T07:34:23.507Z",
+    "temperature": 33,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a4a2ebcca9d40e816928cc",
-    "id": "3939e965-58a7-4760-8b45-3542fc719bfe",
-    "time": "2024-07-27T07:34:03.480Z",
-    "temperature": 37,
+    "_id": "66a4a309cca9d40e816928e4",
+    "id": "3fee73f5-4eee-4f05-add9-10578281da5c",
+    "time": "2024-07-27T07:34:33.538Z",
+    "temperature": 31,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a4a316cca9d40e816928ee",
+    "id": "7f06aea4-7835-43a0-9281-0b93633d6826",
+    "time": "2024-07-27T07:34:46.301Z",
+    "temperature": 32,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a4a2f0cca9d40e816928ce",
-    "id": "0295e4f2-b869-480c-90a9-c71ac3141adc",
-    "time": "2024-07-27T07:34:08.485Z",
-    "temperature": 40,
+    "_id": "66a4a31dcca9d40e816928f4",
+    "id": "8a732267-6861-452d-a4fa-dd8b8d3fb369",
+    "time": "2024-07-27T07:34:53.581Z",
+    "temperature": 34,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a4a2f3cca9d40e816928d2",
-    "id": "d757a604-326f-4ec8-af42-664927fc5321",
-    "time": "2024-07-27T07:34:11.803Z",
-    "temperature": 37,
-    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+    "_id": "66a4a339cca9d40e8169290c",
+    "id": "4f28c7d9-84ed-4916-bea0-a83eba0f0bfb",
+    "time": "2024-07-27T07:35:21.355Z",
+    "temperature": 35,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a4a345cca9d40e81692914",
-    "id": "a61f82c8-9e55-4032-bf58-720372d1f0f5",
-    "time": "2024-07-27T07:35:33.648Z",
-    "temperature": 38,
+    "_id": "66a4a33bcca9d40e8169290e",
+    "id": "6db2300f-d30b-405e-9c55-0e61f03c904b",
+    "time": "2024-07-27T07:35:23.633Z",
+    "temperature": 32,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a4a34fcca9d40e8169291c",
-    "id": "4fbdf7d4-033f-4581-b991-c06a0d626511",
-    "time": "2024-07-27T07:35:43.661Z",
-    "temperature": 37,
-    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+    "_id": "66a4a33ecca9d40e81692912",
+    "id": "d93b4880-519e-481f-bb2f-1e7f1e817ab8",
+    "time": "2024-07-27T07:35:26.964Z",
+    "temperature": 35,
+    "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
   },
   {
-    "_id": "66a4a366cca9d40e8169292e",
-    "id": "3eababe8-5cdb-4f21-b178-0489b3bde1c5",
-    "time": "2024-07-27T07:36:06.436Z",
-    "temperature": 37,
+    "_id": "66a4a348cca9d40e81692916",
+    "id": "b5f11786-1900-49bf-a89a-637004345c52",
+    "time": "2024-07-27T07:35:36.378Z",
+    "temperature": 35,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
+  },
+  {
+    "_id": "66a4a35ecca9d40e81692928",
+    "id": "4cf17c92-ad22-4883-9859-2cb8ac4f5841",
+    "time": "2024-07-27T07:35:58.686Z",
+    "temperature": 31,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a4a37acca9d40e81692944",
-    "id": "ba56b85e-1758-4f46-ab4b-63c154fdbbf1",
-    "time": "2024-07-27T07:36:26.479Z",
-    "temperature": 37,
+    "_id": "66a4a361cca9d40e8169292a",
+    "id": "28a59085-ec2a-41e1-8a41-69624e27899b",
+    "time": "2024-07-27T07:36:01.431Z",
+    "temperature": 33,
     "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   },
   {
-    "_id": "66a4a394cca9d40e81692956",
-    "id": "ef6b9fe9-6e91-42f8-8267-d6b75b750c0f",
-    "time": "2024-07-27T07:36:52.112Z",
-    "temperature": 37,
+    "_id": "66a4a367cca9d40e81692930",
+    "id": "afcc2d84-556a-4e6b-8571-c33a7acf9b21",
+    "time": "2024-07-27T07:36:07.042Z",
+    "temperature": 35,
     "sensorID": "14af68c7-886d-4b58-8b61-8a478e33fb28"
+  },
+  {
+    "_id": "66a4a377cca9d40e81692942",
+    "id": "d9a62e2a-5a89-49bc-a268-35a055184940",
+    "time": "2024-07-27T07:36:23.725Z",
+    "temperature": 30,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a4a37ccca9d40e81692948",
+    "id": "543aeca8-4f65-494e-8603-211bfe3f2c1e",
+    "time": "2024-07-27T07:36:28.726Z",
+    "temperature": 31,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a4a386cca9d40e8169294e",
+    "id": "bff4fa80-e195-421d-ac04-e8242a04cc8c",
+    "time": "2024-07-27T07:36:38.744Z",
+    "temperature": 34,
+    "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
   },
   {
-    "_id": "66a4a3a4cca9d40e81692962",
-    "id": "7eecab7e-07de-420b-af7a-73ef68c25703",
-    "time": "2024-07-27T07:37:08.795Z",
-    "temperature": 38,
+    "_id": "66a4a390cca9d40e81692954",
+    "id": "5d6265ef-e738-4c26-bffa-7765f3ee4024",
+    "time": "2024-07-27T07:36:48.766Z",
+    "temperature": 30,
     "sensorID": "c2537564-1ead-42d3-ac4f-1d049013ff74"
+  },
+  {
+    "_id": "66a4a3a2cca9d40e81692960",
+    "id": "0f041802-8e86-4719-b58c-edc74eb3e5aa",
+    "time": "2024-07-27T07:37:06.546Z",
+    "temperature": 31,
+    "sensorID": "39cf6536-49f2-479e-bd76-860c1240d9dc"
   }
 ]

@@ -28,4 +28,4 @@ plt.tight_layout()
 image_path = './temperature_over_time.png'
 plt.savefig(image_path)
 
-print("Image generation complete")
+print("Image generation complete")  #do not remove this. somehow the image generation gets stuck without this xD.
