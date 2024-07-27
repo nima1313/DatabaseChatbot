@@ -29,8 +29,8 @@ app.post('/process-data', async (req, res) => {
   try {
     await generatePipeline(req.body.query);
     await runAggregation();
-    generateImage();
-    res.json({message: "done"}).end();
+    const imagePath = await generateImage();
+    res.json({imagePath}).end();
   } catch (error) {
     console.error(error);
     res.status(500).send('Error processing data');

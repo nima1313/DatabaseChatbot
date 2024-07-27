@@ -27,3 +27,5 @@ plt.tight_layout()
 # Save the plot as an image
 image_path = './temperature_over_time.png'
 plt.savefig(image_path)
+
+print("Image generation complete")
