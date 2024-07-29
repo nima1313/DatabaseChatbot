@@ -3,10 +3,12 @@ from groq import Groq
 import os
 import json
 import jsonItemLoader
+from dotenv import load_dotenv
 
+load_dotenv()
 
 # Your API key
-api_key = jsonItemLoader.loadItem('sensitiveData.json','groq-API-key')
+api_key = os.getenv('GROQ_API_KEY')
 
 # Initialize the Groq client with the API key
 client = Groq(api_key=api_key)

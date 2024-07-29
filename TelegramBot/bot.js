@@ -1,9 +1,10 @@
 const TelegramBot = require('node-telegram-bot-api');
 const sensitiveData = require('../sensitiveData.json');
 const axios = require('axios');
+require('dotenv').config()
 
 // Replace with your token from BotFather
-const token = sensitiveData['Telegram-API-key'];
+const token = process.env.TELEGRAM_API_KEY;
 
 // Create a bot that uses 'polling' to fetch new updates
 const bot = new TelegramBot(token, { polling: true });    
