@@ -29,8 +29,36 @@ app.post('/process-data', async (req, res) => {
   try {
     await generatePipeline(req.body.query);
     await runAggregation();
-    const imagePath = await generateImage();
-    res.json({imagePath}).end();
+    // const imagePath = await generateImage();
+    // res.json({imagePath}).end();
+    // const visualizerAIQuery = await getAiVisualizerQuery();
+    const query = await getAiVisualizerQuery()
+      .then(
+        (value)=>{
+          return value;
+        }
+      );
+    // console.log(`final results : ${visualizerAIQuery}`);
+    // await generateVisualizerCode(qeury)
+    //   .then(
+    //     (value) => {}
+    //   )
+    //   .catch(
+    //     (err) => {}
+    //   );
+    spawnPromise('python', ['./generateVisualizer.py',query])
+    .then(()=>{
+      console.log("pain");
+      // await runVisualizerCode();
+      spawnPromise('python', ['./runVisualizer.py'])
+      .then(()=>{
+        console.log("are we balling?");
+        const imagePath = "../result.png";
+        res.json({imagePath}).end();
+      });
+      
+    });
+    
   } catch (error) {
     console.error(error);
     res.status(500).send('Error processing data');
@@ -98,6 +126,99 @@ function generateImage() {
       if (code !== 0) {
         reject('Error in generating image');
       }
+    });
+  });
+}
+
+function generateVisualizerCode(query){
+  return new Promise((resolve, reject) => {
+    const pythonProcess = spawn('python', ['./generateVisualizer.py',query]);
+
+    pythonProcess.stdout.on('data', (data) => {
+      console.log(`Python output: ${data}`);
+    });
+
+    pythonProcess.stderr.on('data', (data) => {
+      console.error(`Python error: ${data}`);
+    });
+
+    pythonProcess.on('close', (code) => {
+      if (code !== 0) {
+        reject('Error in generating AiVisualizer');
+      }
+    });
+    console.log("are we at the end of it?");
+  });
+}
+
+function runVisualizerCode(){
+  return new Promise((resolve, reject) => {
+    const pythonProcess = spawn('python', ['./runVisualizer.py']);
+
+    pythonProcess.stdout.on('data', () => {
+      const imagePath = "./result.png";
+      resolve(imagePath);
+    });
+
+    pythonProcess.stderr.on('data', (data) => {
+      console.error(`Python error: ${data}`);
+    });
+
+    pythonProcess.on('close', (code) => {
+      if (code !== 0) {
+        reject('Error in generating image');
+      }
+    });
+  });
+}
+
+function getAiVisualizerQuery(){
+  return new Promise((resolve, reject) =>{
+    fs.readFile('output.json', 'utf8', async (err, data) => {
+      if (err) {
+          console.error('Error reading file:', err);
+          return;
+      }
+      
+      try {
+          // Parse the JSON data
+          const jsonArray = JSON.parse(data);
+          
+          // Check if it's an array
+          if (!Array.isArray(jsonArray)) {
+              console.error('The file does not contain a JSON array.');
+              return;
+          }
+          
+          // Get the first five items or fewer if not available
+          console.log(jsonArray.length);
+          const newArray = jsonArray.slice(0, Math.min(5, jsonArray.length));
+          // console.log(newArray);
+          // Concatenate the items into a single string
+          const query = JSON.stringify(newArray);
+          console.log(query);
+          resolve(query);
+          // console.log('Concatenated String:', query);
+      } catch (error) {
+          console.error('Error parsing JSON:', error);
+      }
+  });
+  })
+  
+}
+
+function spawnPromise(command, args) {
+  return new Promise((resolve, reject) => {
+    const process = spawn(command, args);
+    process.on('close', (code) => {
+      if (code !== 0) {
+        // reject(new Error(`Process exited with code ${code}`));
+      } else {
+        resolve();
+      }
+    });
+    process.on('error', (err) => {
+      // reject(err);
     });
   });
 }

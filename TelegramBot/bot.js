@@ -22,9 +22,10 @@ bot.on('message', async(msg) => {
     });
 
     const imagePath = response.data.imagePath;
-    await console.log(imagePath);
+    console.log(imagePath);
     // Send the image to the user
     bot.sendPhoto(chatId, imagePath, { caption: 'Here is your image!' });
+    console.log("Image sent!")
   } catch (error) {
     console.error('Error processing query:', error);
     bot.sendMessage(chatId, 'Failed to process your query.');
