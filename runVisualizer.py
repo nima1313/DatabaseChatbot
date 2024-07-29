@@ -1,11 +1,7 @@
-import json
-
-# Load the JSON file
-with open('visualizerCode.json', 'r') as file:
-    data = json.load(file)
+import jsonItemLoader
 
 # Extract the Python code from the JSON
-python_code = data.get('code', '')
+python_code = jsonItemLoader.loadItem('visualizerCode.json','code')
 
 # Execute the Python code
 exec(python_code)

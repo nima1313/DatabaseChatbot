@@ -220,7 +220,7 @@ function spawnPromise(command, args) {
     process.on('error', (err) => {
       // reject(err);
     });
-  });
+  }); 
 }
 
 app.listen(port, () => {

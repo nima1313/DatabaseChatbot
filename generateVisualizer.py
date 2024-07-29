@@ -2,9 +2,10 @@ import sys
 from groq import Groq
 import os
 import json
+import jsonItemLoader
 
 # Your API key
-api_key = "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"
+api_key = jsonItemLoader.loadItem('sensitiveData.json','groq-API-key')
 
 # Initialize the Groq client with the API key
 client = Groq(api_key=api_key)
