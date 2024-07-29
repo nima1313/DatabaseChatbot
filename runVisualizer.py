@@ -1,7 +1,7 @@
-import jsonItemLoader
+import jsonLoader
 
 # Extract the Python code from the JSON
-python_code = jsonItemLoader.loadItem('visualizerCode.json','code')
+python_code = jsonLoader.loadItem('visualizerCode.json','code')
 
 # Execute the Python code
 exec(python_code)

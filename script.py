@@ -2,7 +2,7 @@ import sys
 from groq import Groq
 import os
 import json
-import jsonItemLoader
+import jsonLoader
 from dotenv import load_dotenv
 
 load_dotenv()
