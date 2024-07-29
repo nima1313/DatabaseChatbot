@@ -62,6 +62,8 @@ for chunk in completion:
     chunk_content = chunk.choices[0].delta.content or ""
     json_content += chunk_content
 
+
+print(json_content)
 # Check if json_content is empty
 if not json_content:
     raise ValueError("The completion did not return any content.")

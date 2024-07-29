@@ -6,8 +6,8 @@ const bodyParser = require("body-parser");
 const path = require("path");
 const app = express();
 const { exec } = require("child_process");
+const giveTime = require("./giveTime");
 const port = 3001;
-
 
 // Middleware to parse JSON bodies
 app.use(bodyParser.json());
@@ -28,25 +28,15 @@ app.get("/", (req, res) => {
 
 app.post('/process-data', async (req, res) => {
   try {
-    await generatePipeline(req.body.query);
+    await generatePipeline((req.body.query+` \n the current date is ${giveTime()}. be sure to only and only use this date and not change it to another date`));
     await runAggregation();
-    // const imagePath = await generateImage();
-    // res.json({imagePath}).end();
-    // const visualizerAIQuery = await getAiVisualizerQuery();
     const query = await getAiVisualizerQuery()
       .then(
         (value)=>{
           return value;
         }
       );
-    // console.log(`final results : ${visualizerAIQuery}`);
-    // await generateVisualizerCode(qeury)
-    //   .then(
-    //     (value) => {}
-    //   )
-    //   .catch(
-    //     (err) => {}
-    //   );
+    
     spawnPromise('python', ['./generateVisualizer.py',query])
     .then(()=>{
       console.log("pain");
