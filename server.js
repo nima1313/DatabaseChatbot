@@ -7,6 +7,7 @@ const path = require("path");
 const app = express();
 const { exec } = require("child_process");
 const giveTime = require("./giveTime");
+require('dotenv').config()
 const port = 3001;
 
 // Middleware to parse JSON bodies
@@ -28,19 +29,36 @@ app.get("/", (req, res) => {
 
 app.post('/process-data', async (req, res) => {
   try {
-    await generatePipeline((req.body.query+` \n the current date is ${giveTime()}. be sure to only and only use this date and not change it to another date`));
+    await generatePipeline((req.body.query+` \n the current date is ${giveTime()}. be sure to only and only use this date and not change it to another date. the year is not 2024, it's the year that is in this date.`));
     await runAggregation();
-    const query = await getAiVisualizerQuery()
+
+
+    let typeOfAnswer = await giveTypeOfAnswer(req.body.query)
+    .then((result)=>{
+        return result;
+    })
+    .catch((err)=>{
+      res.status(500).send(`Error in typeOfAnswer: ${err}`).end()
+      return;
+    })
+    console.log(typeOfAnswer);
+    
+    typeOfAnswer = await reCheckTypeOfAnswer(typeOfAnswer);
+
+    // Plot
+
+    if (typeOfAnswer == process.env.wordForPlot){
+      const query = await getAiVisualizerQuery()
       .then(
         (value)=>{
           return value;
         }
       );
-    
-    spawnPromise('python', ['./generateVisualizer.py',query])
-    .then(()=>{
+
+      spawnPromise('python', ['./generateVisualizer.py',query])
+      .then(()=>{
       console.log("pain");
-      // await runVisualizerCode();
+
       spawnPromise('python', ['./runVisualizer.py'])
       .then(()=>{
         console.log("are we balling?");
@@ -48,7 +66,15 @@ app.post('/process-data', async (req, res) => {
         res.json({imagePath}).end();
       });
       
-    });
+      });
+    }
+
+    // Sentence
+
+    else {
+        //TODO
+    }
+    
     
   } catch (error) {
     console.error(error);
@@ -69,6 +95,47 @@ function generatePipeline(userQuery) {
     });
 
     pythonProcess.on('close', (code) => {
+      if (code === 0) {
+        resolve();
+      } else {
+        reject('Error in triggering pipeline generation');
+      }
+    });
+  });
+}
+
+async function giveTypeOfAnswer(userQuery) {
+  return await new Promise(async(resolve, reject) => {
+    const pythonProcess = spawn('python', ['./giveTypeOfAnswer.py', userQuery]);
+    
+    pythonProcess.stdout.on('data', (data) => {
+      console.log(`Python output: ${data}`);
+      const output = data.toString().toLowerCase();
+      wordForPlot = process.env.WORD_FOR_PLOT;
+      wordForSentence = process.env.WORD_FOR_SENTENCE;
+      
+      // Plot
+
+      if (output.includes(wordForPlot.toLowerCase())) {
+        resolve(wordForPlot);
+      }
+
+      // Sentence
+
+      else if (output.includes(wordForSentence.toLowerCase())){
+        resolve(wordForSentence);
+      }
+
+      else {
+        reject("Error : the output doesn't contain any of the options");
+      }
+    });
+
+    await pythonProcess.stderr.on('data', (data) => {
+      console.error(`Python error: ${data}`);
+    });
+
+    await pythonProcess.on('close', (code) => {
       if (code === 0) {
         resolve();
       } else {
@@ -217,3 +284,20 @@ function spawnPromise(command, args) {
 app.listen(port, () => {
   console.log(`Server listening at http://localhost:${port}`);
 });
+
+
+async function reCheckTypeOfAnswer(typeOfAnswer){
+  fs.readFile('output.json', 'utf8', (err, data) => {
+    if (err) {
+        console.error('Error reading file:', err);
+        return;
+    }
+
+    // Check the length of the JSON data as a string
+    if (data.length > 200) {
+        return process.env.WORD_FOR_PLOT;
+    } else {
+        return typeOfAnswer;
+    }
+
+})};

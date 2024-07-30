@@ -1,5 +1,4 @@
 const TelegramBot = require('node-telegram-bot-api');
-const sensitiveData = require('../sensitiveData.json');
 const axios = require('axios');
 require('dotenv').config()
 

@@ -7,7 +7,7 @@ load_dotenv()
 
 
 # The function gives us the type of preffered answer we want based on the question (plot or sentence)
-def giveType(completion:str):
+def giveType(completion):
     wordForPlot = "plot"
     wordForSentence = "sentence"
 
@@ -68,10 +68,13 @@ Double-check your answer to ensure accuracy.
 )
 
 # Collect the JSON content from the completion
-
+stringCompletion = ""
+for chunk in completion:
+    chunk_content = chunk.choices[0].delta.content or ""
+    stringCompletion += chunk_content
 # Check if completion is empty
-if not completion:
+if not stringCompletion:
     raise ValueError("The completion did not return any content.")
 
-giveType(completion)
+giveType(stringCompletion)
 
