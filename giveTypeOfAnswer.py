@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-# The function gives us the sentimental of the question (plot or sentence)
+# The function gives us the type of preffered answer we want based on the question (plot or sentence)
 def giveType(completion:str):
     wordForPlot = "plot"
     wordForSentence = "sentence"
