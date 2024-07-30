@@ -21,11 +21,26 @@ bot.on('message', async(msg) => {
       query: messageText
     });
 
-    const imagePath = response.data.imagePath;
+    const typeOfAnswer = response.data.typeOfAnswer;
 
-    // Send the image to the user
-    bot.sendPhoto(chatId, imagePath, { caption: 'Here is your image!' });
-    console.log("Image sent!")
+    // Plot
+
+    if (typeOfAnswer==process.env.WORD_FOR_PLOT){
+      const imagePath = response.data.imagePath;
+
+      // Send the image to the user
+      bot.sendPhoto(chatId, imagePath, { caption: 'Here is your image!' });
+      console.log("Image sent!");
+    }
+
+    // Sentence
+
+    else{
+       const answer = response.data.asnwerToQuestion;
+       bot.sendMessage(chatId, answer);
+       console.log("Answer sent");
+    }
+    
   } catch (error) {
     console.error('Error processing query:', error);
     bot.sendMessage(chatId, 'Failed to process your query.');

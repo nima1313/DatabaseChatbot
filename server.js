@@ -7,6 +7,7 @@ const path = require("path");
 const app = express();
 const { exec } = require("child_process");
 const giveTime = require("./giveTime");
+const { equal } = require("assert");
 require('dotenv').config()
 const port = 3001;
 
@@ -41,13 +42,16 @@ app.post('/process-data', async (req, res) => {
       res.status(500).send(`Error in typeOfAnswer: ${err}`).end()
       return;
     })
-    console.log(typeOfAnswer);
-    
-    typeOfAnswer = await reCheckTypeOfAnswer(typeOfAnswer);
+    console.log("variable nefore recheck:",typeOfAnswer); 
+    typeOfAnswer = await reCheckTypeOfAnswer(typeOfAnswer)
+    .then((value)=>{
+      return value;
+    });
+    console.log("variable after recheck:",typeOfAnswer); 
 
     // Plot
 
-    if (typeOfAnswer == process.env.wordForPlot){
+    if (typeOfAnswer===process.env.WORD_FOR_PLOT){
       const query = await getAiVisualizerQuery()
       .then(
         (value)=>{
@@ -63,7 +67,7 @@ app.post('/process-data', async (req, res) => {
       .then(()=>{
         console.log("are we balling?");
         const imagePath = "../result.png";
-        res.json({imagePath}).end();
+        res.json({ imagePath: imagePath, typeOfAnswer: typeOfAnswer }).end();
       });
       
       });
@@ -72,9 +76,20 @@ app.post('/process-data', async (req, res) => {
     // Sentence
 
     else {
-        //TODO
-    }
-    
+      console.log("pain 2")
+      const request = await makeRequestOfGenerateSentenceAnswer(req)
+      .then((value)=>{
+        return value;
+      })
+      console.log(request)
+      const answer = await giveSentenceAnswer(request)
+      .then((value) => {
+        return value;
+      });
+      console.log(answer);
+      res.json({ asnwerToQuestion: answer, typeOfAnswer: typeOfAnswer }).end();
+
+  }
     
   } catch (error) {
     console.error(error);
@@ -143,6 +158,63 @@ async function giveTypeOfAnswer(userQuery) {
       }
     });
   });
+}
+
+async function generateSentenceAnswer(userQuery){
+  return await new Promise(async(resolve, reject) => {
+    const pythonProcess = spawn('python', ['./generateSentenceAnswer.py', userQuery]);
+    
+    pythonProcess.stdout.on('data', (data) => {
+      console.log(`Python output: ${data}`);
+      const output = data.toString().toLowerCase();
+      
+      if (output.length != 0) {
+        resolve(output);
+      }
+
+      else {
+        reject("Error : the output is invalid");
+      }
+    });
+
+    await pythonProcess.stderr.on('data', (data) => {
+      console.error(`Python error: ${data}`);
+    });
+
+    await pythonProcess.on('close', (code) => {
+      if (code === 0) {
+        resolve();
+      } else {
+        reject('Error in triggering pipeline generation');
+      }
+    });
+  });
+}
+async function giveSentenceAnswer(userQuery) {
+  let newPormise;
+  await generateSentenceAnswer(userQuery).then(async ()=>{
+    newPormise =  await new Promise((resolve, reject) =>{
+      fs.readFile('sentenceAnswer.json', 'utf8', (err, data) => {
+        if (err) {
+          console.error('Error reading the file:', err);
+          return;
+        }
+      
+        // Parse the JSON data
+        const jsonObject = JSON.parse(data);
+      
+        // Access the 'answer' property
+        const answer = jsonObject.answer;
+      
+        // Log the answer to the console
+        console.log(answer);
+        resolve(answer);
+      });
+    })
+  })
+
+  return newPormise;
+  
 }
 
 async function runAggregation() {
@@ -287,17 +359,38 @@ app.listen(port, () => {
 
 
 async function reCheckTypeOfAnswer(typeOfAnswer){
-  fs.readFile('output.json', 'utf8', (err, data) => {
+  
+  return new Promise((resolve, reject) => {
+    
+  fs.readFile('output.json', 'utf8', async (err, data) => {
     if (err) {
         console.error('Error reading file:', err);
         return;
     }
 
     // Check the length of the JSON data as a string
-    if (data.length > 200) {
-        return process.env.WORD_FOR_PLOT;
-    } else {
-        return typeOfAnswer;
+    console.log(`data length is ${data.length}`);
+    if (data.length > 500) {
+        typeOfAnswer = process.env.WORD_FOR_PLOT;
     }
+    resolve(typeOfAnswer);
+})
+  }); 
+};
 
-})};
+
+
+async function makeRequestOfGenerateSentenceAnswer(req){
+  
+  return new Promise((resolve, reject) => {
+    fs.readFile('output.json', 'utf8', async (err, data) => {
+      if (err) {
+          console.error('Error reading file:', err);
+          return;
+      }
+  
+      resolve(`question : ${req.body.query} \n data : ${data}`);
+    });
+  }); 
+};
+
