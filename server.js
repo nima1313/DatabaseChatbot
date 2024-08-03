@@ -19,10 +19,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname)));
 
 // Replace the following with your MongoDB connection string
-const uri = "mongodb://localhost:27017/testProjectDatabase";
+const uri = "mongodb://localhost:27017/AiQueryPrototype";
 
 // Database and collection names
-const collectionName = "logsDatabase";
+const collectionName = "logs";
 
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "index.html"));
@@ -30,7 +30,7 @@ app.get("/", (req, res) => {
 
 app.post('/process-data', async (req, res) => {
   try {
-    await generatePipeline((req.body.query+` \n the current date is ${giveTime()}. be sure to only and only use this date and not change it to another date. the year is not 2024, it's the year that is in this date.`));
+    await generatePipeline((req.body.query+` \n the date and time right now is: ${giveTime()}.also when I for example tell you give me the data of n days ago, I mean n days ago until n-1 days ago not n days ago till now`));
     await runAggregation();
 
 
@@ -219,16 +219,13 @@ async function giveSentenceAnswer(userQuery) {
 
 async function runAggregation() {
   try {
-    const pipeline = JSON.parse(fs.readFileSync('output.json', 'utf-8'));
-
-    await mongoose.connect(uri, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    });
+    const pipeline = await JSON.parse(fs.readFileSync('output.json', 'utf-8'));
+    const newPipeline = await convertToISODate(pipeline);
+    await mongoose.connect(uri);
 
     const collection = mongoose.connection.collection(collectionName);
-    const result = await collection.aggregate(pipeline).toArray();
-
+    console.log(newPipeline[0]['$match']);
+    const result = await collection.aggregate(newPipeline).toArray();
     fs.writeFileSync('output.json', JSON.stringify(result, null, 2), 'utf-8');
 
     return result;
@@ -389,8 +386,26 @@ async function makeRequestOfGenerateSentenceAnswer(req){
           return;
       }
   
-      resolve(`question : ${req.body.query} \n data : ${data}`);
+      resolve(`question : ${req.body.query} \n answer : ${data}`);
     });
   }); 
 };
 
+async function convertToISODate(obj) {
+  if (Array.isArray(obj)) {
+        for (let i = 0; i < obj.length; i++) {
+            obj[i] = await convertToISODate(obj[i]);
+        }
+    } else if (typeof obj === 'object' && obj !== null) {
+        for (let key in obj) {
+            if (obj.hasOwnProperty(key)) {
+                if (key === "$gt" || key === "$gte" || key === "$lt" || key == "$lte") {
+                    obj[key] = new Date(obj[key]);
+                } else {
+                    obj[key] = await convertToISODate(obj[key]);
+                }
+            }
+        }
+    }
+  return obj;
+}

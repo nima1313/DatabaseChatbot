@@ -14,7 +14,7 @@ def giveAnswer(completion):
 
 
 # Your API key
-api_key = os.getenv('GROQ_API_KEY')
+api_key = os.getenv('GROQ_API_KEY2')
 
 # Initialize the Groq client with the API key
 client = Groq(api_key=api_key)
@@ -29,7 +29,7 @@ completion = client.chat.completions.create(
         {
             "role": "system",
             "content": """
-            I will provide you with a question and a JSON file containing relevant data. Please answer the question based on the provided data, ensuring the response is in Persian.
+            I will provide you with a question and a JSON containing the answer of that question. now answer the question in natural language based on the question and answer, ensuring the response is in Persian.
 });"""
         },
         {

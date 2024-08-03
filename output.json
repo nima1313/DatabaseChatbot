@@ -1,6 +1,1 @@
-[
-  {
-    "_id": null,
-    "sumTemperature": 24403.442847561484
-  }
-]
+[{"$match": {"dateTime": {"$gt": "2024-07-29T00:00:00.000Z", "$lt": "2024-07-30T00:00:00.000Z"}}}, {"$group": {"_id": {"$dateTrunc": {"date": "$dateTime", "unit": "minute", "binSize": 30}}, "avgTemperature": {"$avg": {"$toInt": "$data"}}}}, {"$project": {"_id": 0, "dateTime": "$_id", "avgTemperature": 1}}, {"$sort": {"dateTime": 1}}]

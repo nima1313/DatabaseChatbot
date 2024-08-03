@@ -3,8 +3,31 @@ from groq import Groq
 import os
 import json
 from dotenv import load_dotenv
+import re
+from datetime import datetime
+
 
 load_dotenv()
+
+def fix_isodate_in_aggregation(aggregation: str) -> str:
+    # Regular expression to find ISODate instances
+    iso_date_pattern = re.compile(r'ISODate\("([^"]+)"\)')
+
+    # Function to replace ISODate with the proper string format
+    def replace_isodate(match):
+        date_str = match.group(1)
+        # Convert to datetime object to ensure it's a valid date
+        try:
+            datetime.strptime(date_str, "%Y-%m-%dT%H:%M:%S.%fZ")
+        except ValueError:
+            raise ValueError(f"Invalid ISODate format: {date_str}")
+        # Return the date string without ISODate
+        return f'"{date_str}"'
+
+    # Replace all ISODate occurrences in the aggregation string
+    fixed_aggregation = re.sub(iso_date_pattern, replace_isodate, aggregation)
+    
+    return fixed_aggregation
 
 # Your API key
 api_key = os.getenv('GROQ_API_KEY')
@@ -23,19 +46,23 @@ completion = client.chat.completions.create(
             "role": "system",
             "content": """
             Create an aggregation pipeline for MongoDB based on the following log schema and example. Only return a valid JSON file with the pipeline. Do not include any descriptive sentences, explanations, or additional text.
-            Log Schema:
-{
-  "id": "Joi.string().guid({ version: 'uuidv4' }).required()",
-  "time": "Joi.date().iso().required()",
-  "temperature": "Joi.number().required()",
-  "sensorID": "Joi.string().guid({ version: 'uuidv4' }).required()"
+            Schema :{
+  serial: Joi.string().required(),
+  data: Joi.string().required().description("this is the temperature"),
+  dateTime: Joi.date().required()
 }
+keep in mind that data is the same as temperature. also if the user asked for graph, it means plot.
 Example Pipeline:
-
-[
-  {"$match":{"time":{"$gte":"2024-07-23T00:00:00.000Z","$lt":"2024-07-24T00:00:00.000Z"}}},
-  {"$group":{"_id":null,"avgTemperature":{"$avg":"$temperature"}}}
+    [
+  {
+    "$match": {
+      "dateTime": {
+        "$gt": ISODate("2024-07-29T12:40:03.011Z")
+      }
+    }
+  }
 ]
+
 Instructions:
 
 Return only the JSON file with the generated pipeline.
@@ -67,6 +94,8 @@ print(json_content)
 if not json_content:
     raise ValueError("The completion did not return any content.")
 
+json_content = fix_isodate_in_aggregation(json_content)
+print('json content :',json_content)
 # Validate JSON content
 try:
     json_data = json.loads(json_content)
